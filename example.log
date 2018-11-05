@@ -1,0 +1,718 @@
+2018-11-01 DEBUG [AWT-EventQueue-0] (Namespace.java:47) - Created database namespace [logicalName=Name{catalog=null, schema=null}, physicalName=Name{catalog=null, schema=null}]
+2018-11-01 DEBUG [AWT-EventQueue-0] (TypeConfiguration.java:142) - Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@4f0d119e] to MetadataBuildingContext [org.hibernate.boot.internal.MetadataBuildingContextRootImpl@76c09029]
+2018-11-01 DEBUG [AWT-EventQueue-0] (AnnotationBinder.java:551) - Binding entity from annotated class: model.UsuarioModel
+2018-11-01 DEBUG [AWT-EventQueue-0] (Ejb3Column.java:213) - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+2018-11-01 DEBUG [AWT-EventQueue-0] (EntityBinder.java:430) - Import with entity name UsuarioModel
+2018-11-01 DEBUG [AWT-EventQueue-0] (EntityBinder.java:873) - Bind entity model.UsuarioModel on table USUARIO
+2018-11-01 DEBUG [AWT-EventQueue-0] (Ejb3Column.java:213) - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(USUARIO), mappingColumn=USU_CODIGO, insertable=true, updatable=true, unique=false}
+2018-11-01 DEBUG [AWT-EventQueue-0] (PropertyBinder.java:175) - MetadataSourceProcessor property USU_CODIGO with lazy=false
+2018-11-01 DEBUG [AWT-EventQueue-0] (AbstractPropertyHolder.java:94) - Attempting to locate auto-apply AttributeConverter for property [model.UsuarioModel:USU_CODIGO]
+2018-11-01 DEBUG [AWT-EventQueue-0] (SimpleValueBinder.java:411) - building SimpleValue for USU_CODIGO
+2018-11-01 DEBUG [AWT-EventQueue-0] (PropertyBinder.java:266) - Building property USU_CODIGO
+2018-11-01 DEBUG [AWT-EventQueue-0] (BinderHelper.java:644) - #makeIdGenerator(org.hibernate.mapping.SimpleValue([org.hibernate.mapping.Column(USU_CODIGO)]), USU_CODIGO, org.hibernate.id.enhanced.SequenceStyleGenerator, SEQ_USUARIO, ...)
+2018-11-01 DEBUG [AWT-EventQueue-0] (Ejb3Column.java:213) - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(USUARIO), mappingColumn=USU_ATIVO, insertable=true, updatable=true, unique=false}
+2018-11-01 DEBUG [AWT-EventQueue-0] (PropertyBinder.java:175) - MetadataSourceProcessor property USU_ATIVO with lazy=false
+2018-11-01 DEBUG [AWT-EventQueue-0] (AbstractPropertyHolder.java:94) - Attempting to locate auto-apply AttributeConverter for property [model.UsuarioModel:USU_ATIVO]
+2018-11-01 DEBUG [AWT-EventQueue-0] (SimpleValueBinder.java:411) - building SimpleValue for USU_ATIVO
+2018-11-01 DEBUG [AWT-EventQueue-0] (PropertyBinder.java:266) - Building property USU_ATIVO
+2018-11-01 DEBUG [AWT-EventQueue-0] (Ejb3Column.java:213) - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(USUARIO), mappingColumn=USU_CADASTRO, insertable=true, updatable=true, unique=false}
+2018-11-01 DEBUG [AWT-EventQueue-0] (PropertyBinder.java:175) - MetadataSourceProcessor property USU_CADASTRO with lazy=false
+2018-11-01 DEBUG [AWT-EventQueue-0] (AbstractPropertyHolder.java:94) - Attempting to locate auto-apply AttributeConverter for property [model.UsuarioModel:USU_CADASTRO]
+2018-11-01 DEBUG [AWT-EventQueue-0] (SimpleValueBinder.java:411) - building SimpleValue for USU_CADASTRO
+2018-11-01 DEBUG [AWT-EventQueue-0] (PropertyBinder.java:266) - Building property USU_CADASTRO
+2018-11-01 DEBUG [AWT-EventQueue-0] (Ejb3Column.java:213) - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(USUARIO), mappingColumn=USU_LOGIN, insertable=true, updatable=true, unique=false}
+2018-11-01 DEBUG [AWT-EventQueue-0] (PropertyBinder.java:175) - MetadataSourceProcessor property USU_LOGIN with lazy=false
+2018-11-01 DEBUG [AWT-EventQueue-0] (AbstractPropertyHolder.java:94) - Attempting to locate auto-apply AttributeConverter for property [model.UsuarioModel:USU_LOGIN]
+2018-11-01 DEBUG [AWT-EventQueue-0] (SimpleValueBinder.java:411) - building SimpleValue for USU_LOGIN
+2018-11-01 DEBUG [AWT-EventQueue-0] (PropertyBinder.java:266) - Building property USU_LOGIN
+2018-11-01 DEBUG [AWT-EventQueue-0] (Ejb3Column.java:213) - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(USUARIO), mappingColumn=USU_NOME, insertable=true, updatable=true, unique=false}
+2018-11-01 DEBUG [AWT-EventQueue-0] (PropertyBinder.java:175) - MetadataSourceProcessor property USU_NOME with lazy=false
+2018-11-01 DEBUG [AWT-EventQueue-0] (AbstractPropertyHolder.java:94) - Attempting to locate auto-apply AttributeConverter for property [model.UsuarioModel:USU_NOME]
+2018-11-01 DEBUG [AWT-EventQueue-0] (SimpleValueBinder.java:411) - building SimpleValue for USU_NOME
+2018-11-01 DEBUG [AWT-EventQueue-0] (PropertyBinder.java:266) - Building property USU_NOME
+2018-11-01 DEBUG [AWT-EventQueue-0] (Ejb3Column.java:213) - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(USUARIO), mappingColumn=USU_SENHA, insertable=true, updatable=true, unique=false}
+2018-11-01 DEBUG [AWT-EventQueue-0] (PropertyBinder.java:175) - MetadataSourceProcessor property USU_SENHA with lazy=false
+2018-11-01 DEBUG [AWT-EventQueue-0] (AbstractPropertyHolder.java:94) - Attempting to locate auto-apply AttributeConverter for property [model.UsuarioModel:USU_SENHA]
+2018-11-01 DEBUG [AWT-EventQueue-0] (SimpleValueBinder.java:411) - building SimpleValue for USU_SENHA
+2018-11-01 DEBUG [AWT-EventQueue-0] (PropertyBinder.java:266) - Building property USU_SENHA
+2018-11-01 DEBUG [AWT-EventQueue-0] (AnnotationBinder.java:551) - Binding entity from annotated class: model.PessoaModel
+2018-11-01 DEBUG [AWT-EventQueue-0] (Ejb3Column.java:213) - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+2018-11-01 DEBUG [AWT-EventQueue-0] (EntityBinder.java:430) - Import with entity name PessoaModel
+2018-11-01 DEBUG [AWT-EventQueue-0] (EntityBinder.java:873) - Bind entity model.PessoaModel on table PESSOA
+2018-11-01 DEBUG [AWT-EventQueue-0] (Ejb3Column.java:213) - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(PESSOA), mappingColumn=PES_CODIGO, insertable=true, updatable=true, unique=true}
+2018-11-01 DEBUG [AWT-EventQueue-0] (PropertyBinder.java:175) - MetadataSourceProcessor property PES_CODIGO with lazy=false
+2018-11-01 DEBUG [AWT-EventQueue-0] (AbstractPropertyHolder.java:94) - Attempting to locate auto-apply AttributeConverter for property [model.PessoaModel:PES_CODIGO]
+2018-11-01 DEBUG [AWT-EventQueue-0] (SimpleValueBinder.java:411) - building SimpleValue for PES_CODIGO
+2018-11-01 DEBUG [AWT-EventQueue-0] (PropertyBinder.java:266) - Building property PES_CODIGO
+2018-11-01 DEBUG [AWT-EventQueue-0] (BinderHelper.java:644) - #makeIdGenerator(org.hibernate.mapping.SimpleValue([org.hibernate.mapping.Column(PES_CODIGO)]), PES_CODIGO, org.hibernate.id.enhanced.SequenceStyleGenerator, SEQ_PESSOA, ...)
+2018-11-01 DEBUG [AWT-EventQueue-0] (Ejb3Column.java:213) - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(PESSOA), mappingColumn=PES_ATIVO, insertable=true, updatable=true, unique=false}
+2018-11-01 DEBUG [AWT-EventQueue-0] (PropertyBinder.java:175) - MetadataSourceProcessor property PES_ATIVO with lazy=false
+2018-11-01 DEBUG [AWT-EventQueue-0] (AbstractPropertyHolder.java:94) - Attempting to locate auto-apply AttributeConverter for property [model.PessoaModel:PES_ATIVO]
+2018-11-01 DEBUG [AWT-EventQueue-0] (SimpleValueBinder.java:411) - building SimpleValue for PES_ATIVO
+2018-11-01 DEBUG [AWT-EventQueue-0] (PropertyBinder.java:266) - Building property PES_ATIVO
+2018-11-01 DEBUG [AWT-EventQueue-0] (Ejb3Column.java:213) - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(PESSOA), mappingColumn=PES_BAIRRO, insertable=true, updatable=true, unique=false}
+2018-11-01 DEBUG [AWT-EventQueue-0] (PropertyBinder.java:175) - MetadataSourceProcessor property PES_BAIRRO with lazy=false
+2018-11-01 DEBUG [AWT-EventQueue-0] (AbstractPropertyHolder.java:94) - Attempting to locate auto-apply AttributeConverter for property [model.PessoaModel:PES_BAIRRO]
+2018-11-01 DEBUG [AWT-EventQueue-0] (SimpleValueBinder.java:411) - building SimpleValue for PES_BAIRRO
+2018-11-01 DEBUG [AWT-EventQueue-0] (PropertyBinder.java:266) - Building property PES_BAIRRO
+2018-11-01 DEBUG [AWT-EventQueue-0] (Ejb3Column.java:213) - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(PESSOA), mappingColumn=PES_CADASTRO, insertable=true, updatable=true, unique=false}
+2018-11-01 DEBUG [AWT-EventQueue-0] (PropertyBinder.java:175) - MetadataSourceProcessor property PES_CADASTRO with lazy=false
+2018-11-01 DEBUG [AWT-EventQueue-0] (AbstractPropertyHolder.java:94) - Attempting to locate auto-apply AttributeConverter for property [model.PessoaModel:PES_CADASTRO]
+2018-11-01 DEBUG [AWT-EventQueue-0] (SimpleValueBinder.java:411) - building SimpleValue for PES_CADASTRO
+2018-11-01 DEBUG [AWT-EventQueue-0] (PropertyBinder.java:266) - Building property PES_CADASTRO
+2018-11-01 DEBUG [AWT-EventQueue-0] (Ejb3Column.java:213) - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(PESSOA), mappingColumn=PES_CELULAR, insertable=true, updatable=true, unique=false}
+2018-11-01 DEBUG [AWT-EventQueue-0] (PropertyBinder.java:175) - MetadataSourceProcessor property PES_CELULAR with lazy=false
+2018-11-01 DEBUG [AWT-EventQueue-0] (AbstractPropertyHolder.java:94) - Attempting to locate auto-apply AttributeConverter for property [model.PessoaModel:PES_CELULAR]
+2018-11-01 DEBUG [AWT-EventQueue-0] (SimpleValueBinder.java:411) - building SimpleValue for PES_CELULAR
+2018-11-01 DEBUG [AWT-EventQueue-0] (PropertyBinder.java:266) - Building property PES_CELULAR
+2018-11-01 DEBUG [AWT-EventQueue-0] (Ejb3Column.java:213) - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(PESSOA), mappingColumn=PES_CEP, insertable=true, updatable=true, unique=false}
+2018-11-01 DEBUG [AWT-EventQueue-0] (PropertyBinder.java:175) - MetadataSourceProcessor property PES_CEP with lazy=false
+2018-11-01 DEBUG [AWT-EventQueue-0] (AbstractPropertyHolder.java:94) - Attempting to locate auto-apply AttributeConverter for property [model.PessoaModel:PES_CEP]
+2018-11-01 DEBUG [AWT-EventQueue-0] (SimpleValueBinder.java:411) - building SimpleValue for PES_CEP
+2018-11-01 DEBUG [AWT-EventQueue-0] (PropertyBinder.java:266) - Building property PES_CEP
+2018-11-01 DEBUG [AWT-EventQueue-0] (Ejb3Column.java:213) - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(PESSOA), mappingColumn=PES_CIDADE, insertable=true, updatable=true, unique=false}
+2018-11-01 DEBUG [AWT-EventQueue-0] (PropertyBinder.java:175) - MetadataSourceProcessor property PES_CIDADE with lazy=false
+2018-11-01 DEBUG [AWT-EventQueue-0] (AbstractPropertyHolder.java:94) - Attempting to locate auto-apply AttributeConverter for property [model.PessoaModel:PES_CIDADE]
+2018-11-01 DEBUG [AWT-EventQueue-0] (SimpleValueBinder.java:411) - building SimpleValue for PES_CIDADE
+2018-11-01 DEBUG [AWT-EventQueue-0] (PropertyBinder.java:266) - Building property PES_CIDADE
+2018-11-01 DEBUG [AWT-EventQueue-0] (Ejb3Column.java:213) - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(PESSOA), mappingColumn=PES_COMPLEMENTO, insertable=true, updatable=true, unique=false}
+2018-11-01 DEBUG [AWT-EventQueue-0] (PropertyBinder.java:175) - MetadataSourceProcessor property PES_COMPLEMENTO with lazy=false
+2018-11-01 DEBUG [AWT-EventQueue-0] (AbstractPropertyHolder.java:94) - Attempting to locate auto-apply AttributeConverter for property [model.PessoaModel:PES_COMPLEMENTO]
+2018-11-01 DEBUG [AWT-EventQueue-0] (SimpleValueBinder.java:411) - building SimpleValue for PES_COMPLEMENTO
+2018-11-01 DEBUG [AWT-EventQueue-0] (PropertyBinder.java:266) - Building property PES_COMPLEMENTO
+2018-11-01 DEBUG [AWT-EventQueue-0] (Ejb3Column.java:213) - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(PESSOA), mappingColumn=PES_CPFCNPJ, insertable=true, updatable=true, unique=false}
+2018-11-01 DEBUG [AWT-EventQueue-0] (PropertyBinder.java:175) - MetadataSourceProcessor property PES_CPFCNPJ with lazy=false
+2018-11-01 DEBUG [AWT-EventQueue-0] (AbstractPropertyHolder.java:94) - Attempting to locate auto-apply AttributeConverter for property [model.PessoaModel:PES_CPFCNPJ]
+2018-11-01 DEBUG [AWT-EventQueue-0] (SimpleValueBinder.java:411) - building SimpleValue for PES_CPFCNPJ
+2018-11-01 DEBUG [AWT-EventQueue-0] (PropertyBinder.java:266) - Building property PES_CPFCNPJ
+2018-11-01 DEBUG [AWT-EventQueue-0] (Ejb3Column.java:213) - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(PESSOA), mappingColumn=PES_EMAIL, insertable=true, updatable=true, unique=false}
+2018-11-01 DEBUG [AWT-EventQueue-0] (PropertyBinder.java:175) - MetadataSourceProcessor property PES_EMAIL with lazy=false
+2018-11-01 DEBUG [AWT-EventQueue-0] (AbstractPropertyHolder.java:94) - Attempting to locate auto-apply AttributeConverter for property [model.PessoaModel:PES_EMAIL]
+2018-11-01 DEBUG [AWT-EventQueue-0] (SimpleValueBinder.java:411) - building SimpleValue for PES_EMAIL
+2018-11-01 DEBUG [AWT-EventQueue-0] (PropertyBinder.java:266) - Building property PES_EMAIL
+2018-11-01 DEBUG [AWT-EventQueue-0] (Ejb3Column.java:213) - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(PESSOA), mappingColumn=PES_ENDERECO, insertable=true, updatable=true, unique=false}
+2018-11-01 DEBUG [AWT-EventQueue-0] (PropertyBinder.java:175) - MetadataSourceProcessor property PES_ENDERECO with lazy=false
+2018-11-01 DEBUG [AWT-EventQueue-0] (AbstractPropertyHolder.java:94) - Attempting to locate auto-apply AttributeConverter for property [model.PessoaModel:PES_ENDERECO]
+2018-11-01 DEBUG [AWT-EventQueue-0] (SimpleValueBinder.java:411) - building SimpleValue for PES_ENDERECO
+2018-11-01 DEBUG [AWT-EventQueue-0] (PropertyBinder.java:266) - Building property PES_ENDERECO
+2018-11-01 DEBUG [AWT-EventQueue-0] (Ejb3Column.java:213) - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(PESSOA), mappingColumn=PES_FANTASIA, insertable=true, updatable=true, unique=false}
+2018-11-01 DEBUG [AWT-EventQueue-0] (PropertyBinder.java:175) - MetadataSourceProcessor property PES_FANTASIA with lazy=false
+2018-11-01 DEBUG [AWT-EventQueue-0] (AbstractPropertyHolder.java:94) - Attempting to locate auto-apply AttributeConverter for property [model.PessoaModel:PES_FANTASIA]
+2018-11-01 DEBUG [AWT-EventQueue-0] (SimpleValueBinder.java:411) - building SimpleValue for PES_FANTASIA
+2018-11-01 DEBUG [AWT-EventQueue-0] (PropertyBinder.java:266) - Building property PES_FANTASIA
+2018-11-01 DEBUG [AWT-EventQueue-0] (Ejb3Column.java:213) - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(PESSOA), mappingColumn=PES_FISICA, insertable=true, updatable=true, unique=false}
+2018-11-01 DEBUG [AWT-EventQueue-0] (PropertyBinder.java:175) - MetadataSourceProcessor property PES_FISICA with lazy=false
+2018-11-01 DEBUG [AWT-EventQueue-0] (AbstractPropertyHolder.java:94) - Attempting to locate auto-apply AttributeConverter for property [model.PessoaModel:PES_FISICA]
+2018-11-01 DEBUG [AWT-EventQueue-0] (SimpleValueBinder.java:411) - building SimpleValue for PES_FISICA
+2018-11-01 DEBUG [AWT-EventQueue-0] (PropertyBinder.java:266) - Building property PES_FISICA
+2018-11-01 DEBUG [AWT-EventQueue-0] (Ejb3Column.java:213) - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(PESSOA), mappingColumn=PES_FONE1, insertable=true, updatable=true, unique=false}
+2018-11-01 DEBUG [AWT-EventQueue-0] (PropertyBinder.java:175) - MetadataSourceProcessor property PES_FONE1 with lazy=false
+2018-11-01 DEBUG [AWT-EventQueue-0] (AbstractPropertyHolder.java:94) - Attempting to locate auto-apply AttributeConverter for property [model.PessoaModel:PES_FONE1]
+2018-11-01 DEBUG [AWT-EventQueue-0] (SimpleValueBinder.java:411) - building SimpleValue for PES_FONE1
+2018-11-01 DEBUG [AWT-EventQueue-0] (PropertyBinder.java:266) - Building property PES_FONE1
+2018-11-01 DEBUG [AWT-EventQueue-0] (Ejb3Column.java:213) - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(PESSOA), mappingColumn=PES_FONE2, insertable=true, updatable=true, unique=false}
+2018-11-01 DEBUG [AWT-EventQueue-0] (PropertyBinder.java:175) - MetadataSourceProcessor property PES_FONE2 with lazy=false
+2018-11-01 DEBUG [AWT-EventQueue-0] (AbstractPropertyHolder.java:94) - Attempting to locate auto-apply AttributeConverter for property [model.PessoaModel:PES_FONE2]
+2018-11-01 DEBUG [AWT-EventQueue-0] (SimpleValueBinder.java:411) - building SimpleValue for PES_FONE2
+2018-11-01 DEBUG [AWT-EventQueue-0] (PropertyBinder.java:266) - Building property PES_FONE2
+2018-11-01 DEBUG [AWT-EventQueue-0] (Ejb3Column.java:213) - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(PESSOA), mappingColumn=PES_NOME, insertable=true, updatable=true, unique=false}
+2018-11-01 DEBUG [AWT-EventQueue-0] (PropertyBinder.java:175) - MetadataSourceProcessor property PES_NOME with lazy=false
+2018-11-01 DEBUG [AWT-EventQueue-0] (AbstractPropertyHolder.java:94) - Attempting to locate auto-apply AttributeConverter for property [model.PessoaModel:PES_NOME]
+2018-11-01 DEBUG [AWT-EventQueue-0] (SimpleValueBinder.java:411) - building SimpleValue for PES_NOME
+2018-11-01 DEBUG [AWT-EventQueue-0] (PropertyBinder.java:266) - Building property PES_NOME
+2018-11-01 DEBUG [AWT-EventQueue-0] (Ejb3Column.java:213) - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(PESSOA), mappingColumn=PES_NUMERO, insertable=true, updatable=true, unique=false}
+2018-11-01 DEBUG [AWT-EventQueue-0] (PropertyBinder.java:175) - MetadataSourceProcessor property PES_NUMERO with lazy=false
+2018-11-01 DEBUG [AWT-EventQueue-0] (AbstractPropertyHolder.java:94) - Attempting to locate auto-apply AttributeConverter for property [model.PessoaModel:PES_NUMERO]
+2018-11-01 DEBUG [AWT-EventQueue-0] (SimpleValueBinder.java:411) - building SimpleValue for PES_NUMERO
+2018-11-01 DEBUG [AWT-EventQueue-0] (PropertyBinder.java:266) - Building property PES_NUMERO
+2018-11-01 DEBUG [AWT-EventQueue-0] (Ejb3Column.java:213) - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(PESSOA), mappingColumn=PES_RGIE, insertable=true, updatable=true, unique=false}
+2018-11-01 DEBUG [AWT-EventQueue-0] (PropertyBinder.java:175) - MetadataSourceProcessor property PES_RGIE with lazy=false
+2018-11-01 DEBUG [AWT-EventQueue-0] (AbstractPropertyHolder.java:94) - Attempting to locate auto-apply AttributeConverter for property [model.PessoaModel:PES_RGIE]
+2018-11-01 DEBUG [AWT-EventQueue-0] (SimpleValueBinder.java:411) - building SimpleValue for PES_RGIE
+2018-11-01 DEBUG [AWT-EventQueue-0] (PropertyBinder.java:266) - Building property PES_RGIE
+2018-11-01 DEBUG [AWT-EventQueue-0] (Ejb3Column.java:213) - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(PESSOA), mappingColumn=PES_SITE, insertable=true, updatable=true, unique=false}
+2018-11-01 DEBUG [AWT-EventQueue-0] (PropertyBinder.java:175) - MetadataSourceProcessor property PES_SITE with lazy=false
+2018-11-01 DEBUG [AWT-EventQueue-0] (AbstractPropertyHolder.java:94) - Attempting to locate auto-apply AttributeConverter for property [model.PessoaModel:PES_SITE]
+2018-11-01 DEBUG [AWT-EventQueue-0] (SimpleValueBinder.java:411) - building SimpleValue for PES_SITE
+2018-11-01 DEBUG [AWT-EventQueue-0] (PropertyBinder.java:266) - Building property PES_SITE
+2018-11-01 DEBUG [AWT-EventQueue-0] (Ejb3Column.java:213) - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(PESSOA), mappingColumn=PES_UF, insertable=true, updatable=true, unique=false}
+2018-11-01 DEBUG [AWT-EventQueue-0] (PropertyBinder.java:175) - MetadataSourceProcessor property PES_UF with lazy=false
+2018-11-01 DEBUG [AWT-EventQueue-0] (AbstractPropertyHolder.java:94) - Attempting to locate auto-apply AttributeConverter for property [model.PessoaModel:PES_UF]
+2018-11-01 DEBUG [AWT-EventQueue-0] (SimpleValueBinder.java:411) - building SimpleValue for PES_UF
+2018-11-01 DEBUG [AWT-EventQueue-0] (PropertyBinder.java:266) - Building property PES_UF
+2018-11-01 DEBUG [AWT-EventQueue-0] (AnnotationBinder.java:551) - Binding entity from annotated class: model.ClienteModel
+2018-11-01 DEBUG [AWT-EventQueue-0] (Ejb3Column.java:213) - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+2018-11-01 DEBUG [AWT-EventQueue-0] (EntityBinder.java:430) - Import with entity name ClienteModel
+2018-11-01 DEBUG [AWT-EventQueue-0] (EntityBinder.java:873) - Bind entity model.ClienteModel on table CLIENTE
+2018-11-01 DEBUG [AWT-EventQueue-0] (Ejb3Column.java:213) - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(CLIENTE), mappingColumn=CLI_CODIGO, insertable=true, updatable=true, unique=true}
+2018-11-01 DEBUG [AWT-EventQueue-0] (PropertyBinder.java:175) - MetadataSourceProcessor property CLI_CODIGO with lazy=false
+2018-11-01 DEBUG [AWT-EventQueue-0] (AbstractPropertyHolder.java:94) - Attempting to locate auto-apply AttributeConverter for property [model.ClienteModel:CLI_CODIGO]
+2018-11-01 DEBUG [AWT-EventQueue-0] (SimpleValueBinder.java:411) - building SimpleValue for CLI_CODIGO
+2018-11-01 DEBUG [AWT-EventQueue-0] (PropertyBinder.java:266) - Building property CLI_CODIGO
+2018-11-01 DEBUG [AWT-EventQueue-0] (BinderHelper.java:644) - #makeIdGenerator(org.hibernate.mapping.SimpleValue([org.hibernate.mapping.Column(CLI_CODIGO)]), CLI_CODIGO, org.hibernate.id.enhanced.SequenceStyleGenerator, SEQ_CLIENTE, ...)
+2018-11-01 DEBUG [AWT-EventQueue-0] (Ejb3Column.java:213) - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(CLIENTE), mappingColumn=CLI_LIMITECRED, insertable=true, updatable=true, unique=true}
+2018-11-01 DEBUG [AWT-EventQueue-0] (PropertyBinder.java:175) - MetadataSourceProcessor property CLI_LIMITECRED with lazy=false
+2018-11-01 DEBUG [AWT-EventQueue-0] (AbstractPropertyHolder.java:94) - Attempting to locate auto-apply AttributeConverter for property [model.ClienteModel:CLI_LIMITECRED]
+2018-11-01 DEBUG [AWT-EventQueue-0] (SimpleValueBinder.java:411) - building SimpleValue for CLI_LIMITECRED
+2018-11-01 DEBUG [AWT-EventQueue-0] (PropertyBinder.java:266) - Building property CLI_LIMITECRED
+2018-11-01 DEBUG [AWT-EventQueue-0] (Ejb3Column.java:213) - Binding column: Ejb3JoinColumn{logicalColumnName='PES_CODIGO', referencedColumn='', mappedBy=''}
+2018-11-01 DEBUG [AWT-EventQueue-0] (Ejb3Column.java:213) - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(CLIENTE), mappingColumn=pessoamodel, insertable=true, updatable=true, unique=false}
+2018-11-01 DEBUG [AWT-EventQueue-0] (PropertyBinder.java:266) - Building property pessoamodel
+2018-11-01 DEBUG [AWT-EventQueue-0] (AnnotationBinder.java:551) - Binding entity from annotated class: model.FornecedorModel
+2018-11-01 DEBUG [AWT-EventQueue-0] (Ejb3Column.java:213) - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+2018-11-01 DEBUG [AWT-EventQueue-0] (EntityBinder.java:430) - Import with entity name FornecedorModel
+2018-11-01 DEBUG [AWT-EventQueue-0] (EntityBinder.java:873) - Bind entity model.FornecedorModel on table FORNECEDOR
+2018-11-01 DEBUG [AWT-EventQueue-0] (Ejb3Column.java:213) - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(FORNECEDOR), mappingColumn=FOR_CODIGO, insertable=true, updatable=true, unique=true}
+2018-11-01 DEBUG [AWT-EventQueue-0] (PropertyBinder.java:175) - MetadataSourceProcessor property FOR_CODIGO with lazy=false
+2018-11-01 DEBUG [AWT-EventQueue-0] (AbstractPropertyHolder.java:94) - Attempting to locate auto-apply AttributeConverter for property [model.FornecedorModel:FOR_CODIGO]
+2018-11-01 DEBUG [AWT-EventQueue-0] (SimpleValueBinder.java:411) - building SimpleValue for FOR_CODIGO
+2018-11-01 DEBUG [AWT-EventQueue-0] (PropertyBinder.java:266) - Building property FOR_CODIGO
+2018-11-01 DEBUG [AWT-EventQueue-0] (BinderHelper.java:644) - #makeIdGenerator(org.hibernate.mapping.SimpleValue([org.hibernate.mapping.Column(FOR_CODIGO)]), FOR_CODIGO, org.hibernate.id.enhanced.SequenceStyleGenerator, SEQ_FORNECEDOR, ...)
+2018-11-01 DEBUG [AWT-EventQueue-0] (Ejb3Column.java:213) - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(FORNECEDOR), mappingColumn=FOR_CONTATO, insertable=true, updatable=true, unique=false}
+2018-11-01 DEBUG [AWT-EventQueue-0] (PropertyBinder.java:175) - MetadataSourceProcessor property FOR_CONTATO with lazy=false
+2018-11-01 DEBUG [AWT-EventQueue-0] (AbstractPropertyHolder.java:94) - Attempting to locate auto-apply AttributeConverter for property [model.FornecedorModel:FOR_CONTATO]
+2018-11-01 DEBUG [AWT-EventQueue-0] (SimpleValueBinder.java:411) - building SimpleValue for FOR_CONTATO
+2018-11-01 DEBUG [AWT-EventQueue-0] (PropertyBinder.java:266) - Building property FOR_CONTATO
+2018-11-01 DEBUG [AWT-EventQueue-0] (Ejb3Column.java:213) - Binding column: Ejb3JoinColumn{logicalColumnName='PES_CODIGO', referencedColumn='', mappedBy=''}
+2018-11-01 DEBUG [AWT-EventQueue-0] (Ejb3Column.java:213) - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(FORNECEDOR), mappingColumn=pessoamodel, insertable=true, updatable=true, unique=false}
+2018-11-01 DEBUG [AWT-EventQueue-0] (PropertyBinder.java:266) - Building property pessoamodel
+2018-11-01 DEBUG [AWT-EventQueue-0] (SimpleValueBinder.java:456) - Starting fillSimpleValue for USU_CODIGO
+2018-11-01 DEBUG [AWT-EventQueue-0] (SimpleValueBinder.java:456) - Starting fillSimpleValue for USU_ATIVO
+2018-11-01 DEBUG [AWT-EventQueue-0] (SimpleValueBinder.java:456) - Starting fillSimpleValue for USU_CADASTRO
+2018-11-01 DEBUG [AWT-EventQueue-0] (SimpleValueBinder.java:456) - Starting fillSimpleValue for USU_LOGIN
+2018-11-01 DEBUG [AWT-EventQueue-0] (SimpleValueBinder.java:456) - Starting fillSimpleValue for USU_NOME
+2018-11-01 DEBUG [AWT-EventQueue-0] (SimpleValueBinder.java:456) - Starting fillSimpleValue for USU_SENHA
+2018-11-01 DEBUG [AWT-EventQueue-0] (SimpleValueBinder.java:456) - Starting fillSimpleValue for PES_CODIGO
+2018-11-01 DEBUG [AWT-EventQueue-0] (SimpleValueBinder.java:456) - Starting fillSimpleValue for PES_ATIVO
+2018-11-01 DEBUG [AWT-EventQueue-0] (SimpleValueBinder.java:456) - Starting fillSimpleValue for PES_BAIRRO
+2018-11-01 DEBUG [AWT-EventQueue-0] (SimpleValueBinder.java:456) - Starting fillSimpleValue for PES_CADASTRO
+2018-11-01 DEBUG [AWT-EventQueue-0] (SimpleValueBinder.java:456) - Starting fillSimpleValue for PES_CELULAR
+2018-11-01 DEBUG [AWT-EventQueue-0] (SimpleValueBinder.java:456) - Starting fillSimpleValue for PES_CEP
+2018-11-01 DEBUG [AWT-EventQueue-0] (SimpleValueBinder.java:456) - Starting fillSimpleValue for PES_CIDADE
+2018-11-01 DEBUG [AWT-EventQueue-0] (SimpleValueBinder.java:456) - Starting fillSimpleValue for PES_COMPLEMENTO
+2018-11-01 DEBUG [AWT-EventQueue-0] (SimpleValueBinder.java:456) - Starting fillSimpleValue for PES_CPFCNPJ
+2018-11-01 DEBUG [AWT-EventQueue-0] (SimpleValueBinder.java:456) - Starting fillSimpleValue for PES_EMAIL
+2018-11-01 DEBUG [AWT-EventQueue-0] (SimpleValueBinder.java:456) - Starting fillSimpleValue for PES_ENDERECO
+2018-11-01 DEBUG [AWT-EventQueue-0] (SimpleValueBinder.java:456) - Starting fillSimpleValue for PES_FANTASIA
+2018-11-01 DEBUG [AWT-EventQueue-0] (SimpleValueBinder.java:456) - Starting fillSimpleValue for PES_FISICA
+2018-11-01 DEBUG [AWT-EventQueue-0] (SimpleValueBinder.java:456) - Starting fillSimpleValue for PES_FONE1
+2018-11-01 DEBUG [AWT-EventQueue-0] (SimpleValueBinder.java:456) - Starting fillSimpleValue for PES_FONE2
+2018-11-01 DEBUG [AWT-EventQueue-0] (SimpleValueBinder.java:456) - Starting fillSimpleValue for PES_NOME
+2018-11-01 DEBUG [AWT-EventQueue-0] (SimpleValueBinder.java:456) - Starting fillSimpleValue for PES_NUMERO
+2018-11-01 DEBUG [AWT-EventQueue-0] (SimpleValueBinder.java:456) - Starting fillSimpleValue for PES_RGIE
+2018-11-01 DEBUG [AWT-EventQueue-0] (SimpleValueBinder.java:456) - Starting fillSimpleValue for PES_SITE
+2018-11-01 DEBUG [AWT-EventQueue-0] (SimpleValueBinder.java:456) - Starting fillSimpleValue for PES_UF
+2018-11-01 DEBUG [AWT-EventQueue-0] (SimpleValueBinder.java:456) - Starting fillSimpleValue for CLI_CODIGO
+2018-11-01 DEBUG [AWT-EventQueue-0] (SimpleValueBinder.java:456) - Starting fillSimpleValue for CLI_LIMITECRED
+2018-11-01 DEBUG [AWT-EventQueue-0] (SimpleValueBinder.java:456) - Starting fillSimpleValue for FOR_CODIGO
+2018-11-01 DEBUG [AWT-EventQueue-0] (SimpleValueBinder.java:456) - Starting fillSimpleValue for FOR_CONTATO
+2018-11-01 DEBUG [AWT-EventQueue-0] (PrimaryKey.java:35) - Forcing column [usu_codigo] to be non-null as it is part of the primary key for table [usuario]
+2018-11-01 DEBUG [AWT-EventQueue-0] (PrimaryKey.java:35) - Forcing column [pes_codigo] to be non-null as it is part of the primary key for table [pessoa]
+2018-11-01 DEBUG [AWT-EventQueue-0] (PrimaryKey.java:35) - Forcing column [cli_codigo] to be non-null as it is part of the primary key for table [cliente]
+2018-11-01 DEBUG [AWT-EventQueue-0] (PrimaryKey.java:35) - Forcing column [for_codigo] to be non-null as it is part of the primary key for table [fornecedor]
+2018-11-01 DEBUG [AWT-EventQueue-0] (InFlightMetadataCollectorImpl.java:1873) - Resolving reference to class: model.PessoaModel
+2018-11-01 DEBUG [AWT-EventQueue-0] (InFlightMetadataCollectorImpl.java:1873) - Resolving reference to class: model.PessoaModel
+2018-11-01 DEBUG [AWT-EventQueue-0] (InFlightMetadataCollectorImpl.java:1873) - Resolving reference to class: model.PessoaModel
+2018-11-01 DEBUG [AWT-EventQueue-0] (InFlightMetadataCollectorImpl.java:1873) - Resolving reference to class: model.PessoaModel
+2018-11-01 DEBUG [AWT-EventQueue-0] (SessionFactoryImpl.java:197) - Building session factory
+2018-11-01 DEBUG [AWT-EventQueue-0] (Settings.java:70) - SessionFactory name : null
+2018-11-01 DEBUG [AWT-EventQueue-0] (Settings.java:71) - Automatic flush during beforeCompletion(): enabled
+2018-11-01 DEBUG [AWT-EventQueue-0] (Settings.java:72) - Automatic session close at end of transaction: disabled
+2018-11-01 DEBUG [AWT-EventQueue-0] (Settings.java:74) - Statistics: disabled
+2018-11-01 DEBUG [AWT-EventQueue-0] (Settings.java:76) - Deleted entity synthetic identifier rollback: disabled
+2018-11-01 DEBUG [AWT-EventQueue-0] (Settings.java:77) - Default entity-mode: pojo
+2018-11-01 DEBUG [AWT-EventQueue-0] (Settings.java:78) - Check Nullability in Core (should be disabled when Bean Validation is on): enabled
+2018-11-01 DEBUG [AWT-EventQueue-0] (Settings.java:79) - Allow initialization of lazy state outside session : disabled
+2018-11-01 DEBUG [AWT-EventQueue-0] (Settings.java:81) - Using BatchFetchStyle : LEGACY
+2018-11-01 DEBUG [AWT-EventQueue-0] (Settings.java:82) - Default batch fetch size: -1
+2018-11-01 DEBUG [AWT-EventQueue-0] (Settings.java:83) - Maximum outer join fetch depth: null
+2018-11-01 DEBUG [AWT-EventQueue-0] (Settings.java:84) - Default null ordering: NONE
+2018-11-01 DEBUG [AWT-EventQueue-0] (Settings.java:85) - Order SQL updates by primary key: disabled
+2018-11-01 DEBUG [AWT-EventQueue-0] (Settings.java:86) - Order SQL inserts for batching: disabled
+2018-11-01 DEBUG [AWT-EventQueue-0] (Settings.java:88) - multi-tenancy strategy : NONE
+2018-11-01 DEBUG [AWT-EventQueue-0] (Settings.java:90) - JTA Track by Thread: enabled
+2018-11-01 DEBUG [AWT-EventQueue-0] (Settings.java:92) - Query language substitutions: {}
+2018-11-01 DEBUG [AWT-EventQueue-0] (Settings.java:93) - Named query checking : enabled
+2018-11-01 DEBUG [AWT-EventQueue-0] (Settings.java:95) - Second-level cache: disabled
+2018-11-01 DEBUG [AWT-EventQueue-0] (Settings.java:96) - Second-level query cache: disabled
+2018-11-01 DEBUG [AWT-EventQueue-0] (Settings.java:97) - Second-level query cache factory: null
+2018-11-01 DEBUG [AWT-EventQueue-0] (Settings.java:98) - Second-level cache region prefix: null
+2018-11-01 DEBUG [AWT-EventQueue-0] (Settings.java:99) - Optimize second-level cache for minimal puts: disabled
+2018-11-01 DEBUG [AWT-EventQueue-0] (Settings.java:100) - Structured second-level cache entries: disabled
+2018-11-01 DEBUG [AWT-EventQueue-0] (Settings.java:101) - Second-level cache direct-reference entries: disabled
+2018-11-01 DEBUG [AWT-EventQueue-0] (Settings.java:102) - Automatic eviction of collection cache: disabled
+2018-11-01 DEBUG [AWT-EventQueue-0] (Settings.java:104) - JDBC batch size: 15
+2018-11-01 DEBUG [AWT-EventQueue-0] (Settings.java:105) - JDBC batch updates for versioned data: disabled
+2018-11-01 DEBUG [AWT-EventQueue-0] (Settings.java:106) - Scrollable result sets: enabled
+2018-11-01 DEBUG [AWT-EventQueue-0] (Settings.java:107) - Wrap result sets: disabled
+2018-11-01 DEBUG [AWT-EventQueue-0] (Settings.java:108) - JDBC3 getGeneratedKeys(): disabled
+2018-11-01 DEBUG [AWT-EventQueue-0] (Settings.java:109) - JDBC result set fetch size: null
+2018-11-01 DEBUG [AWT-EventQueue-0] (Settings.java:110) - Connection release mode: AFTER_TRANSACTION
+2018-11-01 DEBUG [AWT-EventQueue-0] (Settings.java:111) - Generate SQL with comments: enabled
+2018-11-01 DEBUG [AWT-EventQueue-0] (Settings.java:113) - JPA compliance - query : 
+2018-11-01 DEBUG [AWT-EventQueue-0] (Settings.java:114) - JPA compliance - closed-handling : 
+2018-11-01 DEBUG [AWT-EventQueue-0] (Settings.java:115) - JPA compliance - lists : 
+2018-11-01 DEBUG [AWT-EventQueue-0] (Settings.java:116) - JPA compliance - transactions : 
+2018-11-01 DEBUG [AWT-EventQueue-0] (SessionFactoryImpl.java:252) - Session factory constructed with filter configurations : {}
+2018-11-01 DEBUG [AWT-EventQueue-0] (SessionFactoryImpl.java:253) - Instantiating session factory with properties: {sun.desktop=windows, hibernate.format_sql=true, awt.toolkit=sun.awt.windows.WToolkit, file.encoding.pkg=sun.io, java.specification.version=1.8, sun.cpu.isalist=amd64, sun.jnu.encoding=Cp1252, hibernate.dialect=org.hibernate.dialect.OracleDialect, sun.awt.enableExtraMouseButtons=true, java.class.path=C:\Users\Gabriel Alves\Desktop\legitimo\trabalho02\target\classes;C:\Users\Gabriel Alves\.m2\repository\org\hibernate\hibernate-core\5.3.6.Final\hibernate-core-5.3.6.Final.jar;C:\Users\Gabriel Alves\.m2\repository\org\jboss\logging\jboss-logging\3.3.2.Final\jboss-logging-3.3.2.Final.jar;C:\Users\Gabriel Alves\.m2\repository\javax\persistence\javax.persistence-api\2.2\javax.persistence-api-2.2.jar;C:\Users\Gabriel Alves\.m2\repository\org\javassist\javassist\3.23.1-GA\javassist-3.23.1-GA.jar;C:\Users\Gabriel Alves\.m2\repository\net\bytebuddy\byte-buddy\1.8.17\byte-buddy-1.8.17.jar;C:\Users\Gabriel Alves\.m2\repository\antlr\antlr\2.7.7\antlr-2.7.7.jar;C:\Users\Gabriel Alves\.m2\repository\org\jboss\spec\javax\transaction\jboss-transaction-api_1.2_spec\1.1.1.Final\jboss-transaction-api_1.2_spec-1.1.1.Final.jar;C:\Users\Gabriel Alves\.m2\repository\org\jboss\jandex\2.0.5.Final\jandex-2.0.5.Final.jar;C:\Users\Gabriel Alves\.m2\repository\com\fasterxml\classmate\1.3.4\classmate-1.3.4.jar;C:\Users\Gabriel Alves\.m2\repository\javax\activation\javax.activation-api\1.2.0\javax.activation-api-1.2.0.jar;C:\Users\Gabriel Alves\.m2\repository\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar;C:\Users\Gabriel Alves\.m2\repository\org\hibernate\hibernate-entitymanager\5.3.6.Final\hibernate-entitymanager-5.3.6.Final.jar;C:\Users\Gabriel Alves\.m2\repository\org\hibernate\common\hibernate-commons-annotations\5.0.4.Final\hibernate-commons-annotations-5.0.4.Final.jar;C:\Users\Gabriel Alves\.m2\repository\net\sf\jasperreports\jasperreports\6.1.0\jasperreports-6.1.0.jar;C:\Users\Gabriel Alves\.m2\repository\commons-beanutils\commons-beanutils\1.9.0\commons-beanutils-1.9.0.jar;C:\Users\Gabriel Alves\.m2\repository\commons-collections\commons-collections\3.2.1\commons-collections-3.2.1.jar;C:\Users\Gabriel Alves\.m2\repository\commons-digester\commons-digester\2.1\commons-digester-2.1.jar;C:\Users\Gabriel Alves\.m2\repository\commons-logging\commons-logging\1.1.1\commons-logging-1.1.1.jar;C:\Users\Gabriel Alves\.m2\repository\com\lowagie\itext\2.1.7.js2\itext-2.1.7.js2.jar;C:\Users\Gabriel Alves\.m2\repository\bouncycastle\bcmail-jdk14\138\bcmail-jdk14-138.jar;C:\Users\Gabriel Alves\.m2\repository\bouncycastle\bcprov-jdk14\138\bcprov-jdk14-138.jar;C:\Users\Gabriel Alves\.m2\repository\org\bouncycastle\bctsp-jdk14\1.38\bctsp-jdk14-1.38.jar;C:\Users\Gabriel Alves\.m2\repository\org\bouncycastle\bcprov-jdk14\1.38\bcprov-jdk14-1.38.jar;C:\Users\Gabriel Alves\.m2\repository\org\bouncycastle\bcmail-jdk14\1.38\bcmail-jdk14-1.38.jar;C:\Users\Gabriel Alves\.m2\repository\jfree\jcommon\1.0.15\jcommon-1.0.15.jar;C:\Users\Gabriel Alves\.m2\repository\jfree\jfreechart\1.0.12\jfreechart-1.0.12.jar;C:\Users\Gabriel Alves\.m2\repository\xml-apis\xml-apis\1.3.02\xml-apis-1.3.02.jar;C:\Users\Gabriel Alves\.m2\repository\org\eclipse\jdt\core\compiler\ecj\4.3.1\ecj-4.3.1.jar;C:\Users\Gabriel Alves\.m2\repository\org\codehaus\castor\castor-xml\1.3.3\castor-xml-1.3.3.jar;C:\Users\Gabriel Alves\.m2\repository\org\codehaus\castor\castor-core\1.3.3\castor-core-1.3.3.jar;C:\Users\Gabriel Alves\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;C:\Users\Gabriel Alves\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\Gabriel Alves\.m2\repository\stax\stax\1.2.0\stax-1.2.0.jar;C:\Users\Gabriel Alves\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar;C:\Users\Gabriel Alves\.m2\repository\javax\xml\stream\stax-api\1.0-2\stax-api-1.0-2.jar;C:\Users\Gabriel Alves\.m2\repository\org\springframework\spring-context\3.0.6.RELEASE\spring-context-3.0.6.RELEASE.jar;C:\Users\Gabriel Alves\.m2\repository\org\springframework\spring-aop\3.0.6.RELEASE\spring-aop-3.0.6.RELEASE.jar;C:\Users\Gabriel Alves\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\Gabriel Alves\.m2\repository\org\springframework\spring-beans\3.0.6.RELEASE\spring-beans-3.0.6.RELEASE.jar;C:\Users\Gabriel Alves\.m2\repository\org\springframework\spring-core\3.0.6.RELEASE\spring-core-3.0.6.RELEASE.jar;C:\Users\Gabriel Alves\.m2\repository\org\springframework\spring-expression\3.0.6.RELEASE\spring-expression-3.0.6.RELEASE.jar;C:\Users\Gabriel Alves\.m2\repository\org\springframework\spring-asm\3.0.6.RELEASE\spring-asm-3.0.6.RELEASE.jar;C:\Users\Gabriel Alves\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.1.4\jackson-core-2.1.4.jar;C:\Users\Gabriel Alves\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.1.4\jackson-databind-2.1.4.jar;C:\Users\Gabriel Alves\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.1.4\jackson-annotations-2.1.4.jar;C:\Users\Gabriel Alves\.m2\repository\org\apache\lucene\lucene-core\4.5.1\lucene-core-4.5.1.jar;C:\Users\Gabriel Alves\.m2\repository\org\apache\lucene\lucene-analyzers-common\4.5.1\lucene-analyzers-common-4.5.1.jar;C:\Users\Gabriel Alves\.m2\repository\org\apache\lucene\lucene-queryparser\4.5.1\lucene-queryparser-4.5.1.jar;C:\Users\Gabriel Alves\.m2\repository\org\apache\lucene\lucene-queries\4.5.1\lucene-queries-4.5.1.jar;C:\Users\Gabriel Alves\.m2\repository\org\apache\lucene\lucene-sandbox\4.5.1\lucene-sandbox-4.5.1.jar;C:\Users\Gabriel Alves\.m2\repository\jakarta-regexp\jakarta-regexp\1.4\jakarta-regexp-1.4.jar;C:\Users\Gabriel Alves\.m2\repository\org\olap4j\olap4j\0.9.7.309-JS-3\olap4j-0.9.7.309-JS-3.jar;C:\Users\Gabriel Alves\.m2\repository\com\google\zxing\core\2.3.0\core-2.3.0.jar;C:\Users\Gabriel Alves\.m2\repository\jasperreports\jasperreports\3.5.3\jasperreports-3.5.3.jar;C:\Users\Gabriel Alves\.m2\repository\eclipse\jdtcore\3.1.0\jdtcore-3.1.0.jar;C:\Users\Gabriel Alves\.m2\repository\com\jslsolucoes\ojdbc6\11.2.0.1.0\ojdbc6-11.2.0.1.0.jar;C:\Users\Gabriel Alves\.m2\repository\log4j\apache-log4j-extras\1.2.17\apache-log4j-extras-1.2.17.jar;C:\Users\Gabriel Alves\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar, java.vm.vendor=Oracle Corporation, sun.arch.data.model=64, user.variant=, java.vendor.url=http://java.oracle.com/, user.timezone=America/Sao_Paulo, os.name=Windows 10, java.vm.specification.version=1.8, user.country=BR, sun.java.launcher=SUN_STANDARD, sun.boot.library.path=G:\WINDOWS 10 PROGRAMAS INSTALADOS\Java\jdk1.8.0_191\jre\bin, hibernate.use_sql_comments=true, sun.java.command=principal.FormMenu, sun.cpu.endian=little, user.home=C:\Users\Gabriel Alves, user.language=pt, java.specification.vendor=Oracle Corporation, hibernate.cache.provider_class=org.hibernate.cache.NoCacheProvider, java.home=G:\WINDOWS 10 PROGRAMAS INSTALADOS\Java\jdk1.8.0_191\jre, file.separator=\, line.separator=
+, java.vm.specification.vendor=Oracle Corporation, java.specification.name=Java Platform API Specification, java.awt.graphicsenv=sun.awt.Win32GraphicsEnvironment, cache.provider_class=org.hibernate.cache.NoCacheProvider, sun.boot.class.path=G:\WINDOWS 10 PROGRAMAS INSTALADOS\Java\jdk1.8.0_191\jre\lib\resources.jar;G:\WINDOWS 10 PROGRAMAS INSTALADOS\Java\jdk1.8.0_191\jre\lib\rt.jar;G:\WINDOWS 10 PROGRAMAS INSTALADOS\Java\jdk1.8.0_191\jre\lib\sunrsasign.jar;G:\WINDOWS 10 PROGRAMAS INSTALADOS\Java\jdk1.8.0_191\jre\lib\jsse.jar;G:\WINDOWS 10 PROGRAMAS INSTALADOS\Java\jdk1.8.0_191\jre\lib\jce.jar;G:\WINDOWS 10 PROGRAMAS INSTALADOS\Java\jdk1.8.0_191\jre\lib\charsets.jar;G:\WINDOWS 10 PROGRAMAS INSTALADOS\Java\jdk1.8.0_191\jre\lib\jfr.jar;G:\WINDOWS 10 PROGRAMAS INSTALADOS\Java\jdk1.8.0_191\jre\classes, user.script=, connection.password=12345678, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, java.runtime.version=1.8.0_191-b12, user.name=Gabriel Alves, path.separator=;, hibernate.connection.username=****, os.version=10.0, java.endorsed.dirs=G:\WINDOWS 10 PROGRAMAS INSTALADOS\Java\jdk1.8.0_191\jre\lib\endorsed, java.runtime.name=Java(TM) SE Runtime Environment, hibernate.connection.url=jdbc:oracle:thin:@mydbinstance.cpwzpdk17aso.sa-east-1.rds.amazonaws.com:1521:ORCL, file.encoding=Cp1252, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, hibernate.show_sql=true, hibernate.connection.driver_class=oracle.jdbc.driver.OracleDriver, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, java.io.tmpdir=C:\Users\GABRIE~1\AppData\Local\Temp\, java.version=1.8.0_191, user.dir=C:\Users\Gabriel Alves\Desktop\legitimo\trabalho02, os.arch=amd64, connection.username=unip, java.vm.specification.name=Java Virtual Machine Specification, hibernate.connection.password=****, java.awt.printerjob=sun.awt.windows.WPrinterJob, sun.os.patch.level=, connection.driver_class=oracle.jdbc.driver.OracleDriver, hibernate.boot.CfgXmlAccessService.key=org.hibernate.boot.cfgxml.spi.LoadedConfig@7fd963f2, java.library.path=G:\WINDOWS 10 PROGRAMAS INSTALADOS\Java\jdk1.8.0_191\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Users\Gabriel Alves\AppData\Local\Microsoft\WindowsApps;%DASHLANE_DLL_DIR%;., java.vm.info=mixed mode, java.vendor=Oracle Corporation, java.vm.version=25.191-b12, hibernate.bytecode.use_reflection_optimizer=false, java.ext.dirs=G:\WINDOWS 10 PROGRAMAS INSTALADOS\Java\jdk1.8.0_191\jre\lib\ext;C:\Windows\Sun\Java\lib\ext, sun.io.unicode.encoding=UnicodeLittle, connection.url=jdbc:oracle:thin:@mydbinstance.cpwzpdk17aso.sa-east-1.rds.amazonaws.com:1521:ORCL, java.class.version=52.0}
+2018-11-01 DEBUG [AWT-EventQueue-0] (JaccIntegrator.java:80) - Skipping JACC integration as it was not enabled
+2018-11-01 DEBUG [AWT-EventQueue-0] (SessionFactoryImpl.java:292) - Instantiated session factory
+2018-11-01 DEBUG [AWT-EventQueue-0] (TypeConfiguration.java:147) - Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@4f0d119e] to SessionFactoryImpl [org.hibernate.internal.SessionFactoryImpl@18ba93a1]
+2018-11-01 DEBUG [AWT-EventQueue-0] (ClassLoaderAccessImpl.java:60) - Not known whether passed class name [model.PessoaModel] is safe
+2018-11-01 DEBUG [AWT-EventQueue-0] (ClassLoaderAccessImpl.java:62) - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : model.PessoaModel
+2018-11-01 DEBUG [AWT-EventQueue-0] (ClassLoaderAccessImpl.java:60) - Not known whether passed class name [model.PessoaModel] is safe
+2018-11-01 DEBUG [AWT-EventQueue-0] (ClassLoaderAccessImpl.java:62) - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : model.PessoaModel
+2018-11-01 DEBUG [AWT-EventQueue-0] (ClassLoaderAccessImpl.java:60) - Not known whether passed class name [model.UsuarioModel] is safe
+2018-11-01 DEBUG [AWT-EventQueue-0] (ClassLoaderAccessImpl.java:62) - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : model.UsuarioModel
+2018-11-01 DEBUG [AWT-EventQueue-0] (ClassLoaderAccessImpl.java:60) - Not known whether passed class name [model.UsuarioModel] is safe
+2018-11-01 DEBUG [AWT-EventQueue-0] (ClassLoaderAccessImpl.java:62) - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : model.UsuarioModel
+2018-11-01 DEBUG [AWT-EventQueue-0] (ClassLoaderAccessImpl.java:60) - Not known whether passed class name [model.ClienteModel] is safe
+2018-11-01 DEBUG [AWT-EventQueue-0] (ClassLoaderAccessImpl.java:62) - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : model.ClienteModel
+2018-11-01 DEBUG [AWT-EventQueue-0] (ClassLoaderAccessImpl.java:60) - Not known whether passed class name [model.ClienteModel] is safe
+2018-11-01 DEBUG [AWT-EventQueue-0] (ClassLoaderAccessImpl.java:62) - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : model.ClienteModel
+2018-11-01 DEBUG [AWT-EventQueue-0] (ClassLoaderAccessImpl.java:60) - Not known whether passed class name [model.FornecedorModel] is safe
+2018-11-01 DEBUG [AWT-EventQueue-0] (ClassLoaderAccessImpl.java:62) - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : model.FornecedorModel
+2018-11-01 DEBUG [AWT-EventQueue-0] (ClassLoaderAccessImpl.java:60) - Not known whether passed class name [model.FornecedorModel] is safe
+2018-11-01 DEBUG [AWT-EventQueue-0] (ClassLoaderAccessImpl.java:62) - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : model.FornecedorModel
+2018-11-01 DEBUG [AWT-EventQueue-0] (AbstractEntityPersister.java:3781) - Static SQL for entity: model.PessoaModel
+2018-11-01 DEBUG [AWT-EventQueue-0] (AbstractEntityPersister.java:3786) -  Version select: /* get version model.PessoaModel */ select PES_CODIGO from PESSOA where PES_CODIGO =?
+2018-11-01 DEBUG [AWT-EventQueue-0] (AbstractEntityPersister.java:3789) -  Snapshot select: /* get current state model.PessoaModel */ select pessoamode_.PES_CODIGO, pessoamode_.PES_ATIVO as PES_ATIV2_2_, pessoamode_.PES_BAIRRO as PES_BAIR3_2_, pessoamode_.PES_CADASTRO as PES_CADA4_2_, pessoamode_.PES_CELULAR as PES_CELU5_2_, pessoamode_.PES_CEP as PES_CEP6_2_, pessoamode_.PES_CIDADE as PES_CIDA7_2_, pessoamode_.PES_COMPLEMENTO as PES_COMP8_2_, pessoamode_.PES_CPFCNPJ as PES_CPFC9_2_, pessoamode_.PES_EMAIL as PES_EMA10_2_, pessoamode_.PES_ENDERECO as PES_END11_2_, pessoamode_.PES_FANTASIA as PES_FAN12_2_, pessoamode_.PES_FISICA as PES_FIS13_2_, pessoamode_.PES_FONE1 as PES_FON14_2_, pessoamode_.PES_FONE2 as PES_FON15_2_, pessoamode_.PES_NOME as PES_NOM16_2_, pessoamode_.PES_NUMERO as PES_NUM17_2_, pessoamode_.PES_RGIE as PES_RGI18_2_, pessoamode_.PES_SITE as PES_SIT19_2_, pessoamode_.PES_UF as PES_UF20_2_ from PESSOA pessoamode_ where pessoamode_.PES_CODIGO=?
+2018-11-01 DEBUG [AWT-EventQueue-0] (DelegatingBasicLogger.java:394) -  Insert 0: /* insert model.PessoaModel */ insert into PESSOA (PES_ATIVO, PES_BAIRRO, PES_CADASTRO, PES_CELULAR, PES_CEP, PES_CIDADE, PES_COMPLEMENTO, PES_CPFCNPJ, PES_EMAIL, PES_ENDERECO, PES_FANTASIA, PES_FISICA, PES_FONE1, PES_FONE2, PES_NOME, PES_NUMERO, PES_RGIE, PES_SITE, PES_UF, PES_CODIGO) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2018-11-01 DEBUG [AWT-EventQueue-0] (DelegatingBasicLogger.java:394) -  Update 0: /* update model.PessoaModel */ update PESSOA set PES_ATIVO=?, PES_BAIRRO=?, PES_CADASTRO=?, PES_CELULAR=?, PES_CEP=?, PES_CIDADE=?, PES_COMPLEMENTO=?, PES_CPFCNPJ=?, PES_EMAIL=?, PES_ENDERECO=?, PES_FANTASIA=?, PES_FISICA=?, PES_FONE1=?, PES_FONE2=?, PES_NOME=?, PES_NUMERO=?, PES_RGIE=?, PES_SITE=?, PES_UF=? where PES_CODIGO=?
+2018-11-01 DEBUG [AWT-EventQueue-0] (DelegatingBasicLogger.java:394) -  Delete 0: /* delete model.PessoaModel */ delete from PESSOA where PES_CODIGO=?
+2018-11-01 DEBUG [AWT-EventQueue-0] (QuerySpacesImpl.java:174) - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@73ac9816]
+2018-11-01 DEBUG [AWT-EventQueue-0] (MetamodelGraphWalker.java:139) - Visiting attribute path : PES_ATIVO
+2018-11-01 DEBUG [AWT-EventQueue-0] (MetamodelGraphWalker.java:139) - Visiting attribute path : PES_BAIRRO
+2018-11-01 DEBUG [AWT-EventQueue-0] (MetamodelGraphWalker.java:139) - Visiting attribute path : PES_CADASTRO
+2018-11-01 DEBUG [AWT-EventQueue-0] (MetamodelGraphWalker.java:139) - Visiting attribute path : PES_CELULAR
+2018-11-01 DEBUG [AWT-EventQueue-0] (MetamodelGraphWalker.java:139) - Visiting attribute path : PES_CEP
+2018-11-01 DEBUG [AWT-EventQueue-0] (MetamodelGraphWalker.java:139) - Visiting attribute path : PES_CIDADE
+2018-11-01 DEBUG [AWT-EventQueue-0] (MetamodelGraphWalker.java:139) - Visiting attribute path : PES_COMPLEMENTO
+2018-11-01 DEBUG [AWT-EventQueue-0] (MetamodelGraphWalker.java:139) - Visiting attribute path : PES_CPFCNPJ
+2018-11-01 DEBUG [AWT-EventQueue-0] (MetamodelGraphWalker.java:139) - Visiting attribute path : PES_EMAIL
+2018-11-01 DEBUG [AWT-EventQueue-0] (MetamodelGraphWalker.java:139) - Visiting attribute path : PES_ENDERECO
+2018-11-01 DEBUG [AWT-EventQueue-0] (MetamodelGraphWalker.java:139) - Visiting attribute path : PES_FANTASIA
+2018-11-01 DEBUG [AWT-EventQueue-0] (MetamodelGraphWalker.java:139) - Visiting attribute path : PES_FISICA
+2018-11-01 DEBUG [AWT-EventQueue-0] (MetamodelGraphWalker.java:139) - Visiting attribute path : PES_FONE1
+2018-11-01 DEBUG [AWT-EventQueue-0] (MetamodelGraphWalker.java:139) - Visiting attribute path : PES_FONE2
+2018-11-01 DEBUG [AWT-EventQueue-0] (MetamodelGraphWalker.java:139) - Visiting attribute path : PES_NOME
+2018-11-01 DEBUG [AWT-EventQueue-0] (MetamodelGraphWalker.java:139) - Visiting attribute path : PES_NUMERO
+2018-11-01 DEBUG [AWT-EventQueue-0] (MetamodelGraphWalker.java:139) - Visiting attribute path : PES_RGIE
+2018-11-01 DEBUG [AWT-EventQueue-0] (MetamodelGraphWalker.java:139) - Visiting attribute path : PES_SITE
+2018-11-01 DEBUG [AWT-EventQueue-0] (MetamodelGraphWalker.java:139) - Visiting attribute path : PES_UF
+2018-11-01 DEBUG [AWT-EventQueue-0] (FetchStyleLoadPlanBuildingAssociationVisitationStrategy.java:150) - Building LoadPlan...
+2018-11-01 DEBUG [AWT-EventQueue-0] (LoadQueryJoinAndFetchProcessor.java:119) - processing queryspace <gen:0>
+2018-11-01 DEBUG [AWT-EventQueue-0] (LoadPlanTreePrinter.java:55) - LoadPlan(entity=model.PessoaModel)
+    - Returns
+       - EntityReturnImpl(entity=model.PessoaModel, querySpaceUid=<gen:0>, path=model.PessoaModel)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=model.PessoaModel)
+          - SQL table alias mapping - pessoamode0_
+          - alias suffix - 0_
+          - suffixed key columns - {PES_CODI1_2_0_}
+
+2018-11-01 DEBUG [AWT-EventQueue-0] (EntityLoader.java:137) - Static select for entity model.PessoaModel [NONE]: select pessoamode0_.PES_CODIGO as PES_CODI1_2_0_, pessoamode0_.PES_ATIVO as PES_ATIV2_2_0_, pessoamode0_.PES_BAIRRO as PES_BAIR3_2_0_, pessoamode0_.PES_CADASTRO as PES_CADA4_2_0_, pessoamode0_.PES_CELULAR as PES_CELU5_2_0_, pessoamode0_.PES_CEP as PES_CEP6_2_0_, pessoamode0_.PES_CIDADE as PES_CIDA7_2_0_, pessoamode0_.PES_COMPLEMENTO as PES_COMP8_2_0_, pessoamode0_.PES_CPFCNPJ as PES_CPFC9_2_0_, pessoamode0_.PES_EMAIL as PES_EMA10_2_0_, pessoamode0_.PES_ENDERECO as PES_END11_2_0_, pessoamode0_.PES_FANTASIA as PES_FAN12_2_0_, pessoamode0_.PES_FISICA as PES_FIS13_2_0_, pessoamode0_.PES_FONE1 as PES_FON14_2_0_, pessoamode0_.PES_FONE2 as PES_FON15_2_0_, pessoamode0_.PES_NOME as PES_NOM16_2_0_, pessoamode0_.PES_NUMERO as PES_NUM17_2_0_, pessoamode0_.PES_RGIE as PES_RGI18_2_0_, pessoamode0_.PES_SITE as PES_SIT19_2_0_, pessoamode0_.PES_UF as PES_UF20_2_0_ from PESSOA pessoamode0_ where pessoamode0_.PES_CODIGO=?
+2018-11-01 DEBUG [AWT-EventQueue-0] (QuerySpacesImpl.java:174) - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@b12fc0d]
+2018-11-01 DEBUG [AWT-EventQueue-0] (MetamodelGraphWalker.java:139) - Visiting attribute path : PES_ATIVO
+2018-11-01 DEBUG [AWT-EventQueue-0] (MetamodelGraphWalker.java:139) - Visiting attribute path : PES_BAIRRO
+2018-11-01 DEBUG [AWT-EventQueue-0] (MetamodelGraphWalker.java:139) - Visiting attribute path : PES_CADASTRO
+2018-11-01 DEBUG [AWT-EventQueue-0] (MetamodelGraphWalker.java:139) - Visiting attribute path : PES_CELULAR
+2018-11-01 DEBUG [AWT-EventQueue-0] (MetamodelGraphWalker.java:139) - Visiting attribute path : PES_CEP
+2018-11-01 DEBUG [AWT-EventQueue-0] (MetamodelGraphWalker.java:139) - Visiting attribute path : PES_CIDADE
+2018-11-01 DEBUG [AWT-EventQueue-0] (MetamodelGraphWalker.java:139) - Visiting attribute path : PES_COMPLEMENTO
+2018-11-01 DEBUG [AWT-EventQueue-0] (MetamodelGraphWalker.java:139) - Visiting attribute path : PES_CPFCNPJ
+2018-11-01 DEBUG [AWT-EventQueue-0] (MetamodelGraphWalker.java:139) - Visiting attribute path : PES_EMAIL
+2018-11-01 DEBUG [AWT-EventQueue-0] (MetamodelGraphWalker.java:139) - Visiting attribute path : PES_ENDERECO
+2018-11-01 DEBUG [AWT-EventQueue-0] (MetamodelGraphWalker.java:139) - Visiting attribute path : PES_FANTASIA
+2018-11-01 DEBUG [AWT-EventQueue-0] (MetamodelGraphWalker.java:139) - Visiting attribute path : PES_FISICA
+2018-11-01 DEBUG [AWT-EventQueue-0] (MetamodelGraphWalker.java:139) - Visiting attribute path : PES_FONE1
+2018-11-01 DEBUG [AWT-EventQueue-0] (MetamodelGraphWalker.java:139) - Visiting attribute path : PES_FONE2
+2018-11-01 DEBUG [AWT-EventQueue-0] (MetamodelGraphWalker.java:139) - Visiting attribute path : PES_NOME
+2018-11-01 DEBUG [AWT-EventQueue-0] (MetamodelGraphWalker.java:139) - Visiting attribute path : PES_NUMERO
+2018-11-01 DEBUG [AWT-EventQueue-0] (MetamodelGraphWalker.java:139) - Visiting attribute path : PES_RGIE
+2018-11-01 DEBUG [AWT-EventQueue-0] (MetamodelGraphWalker.java:139) - Visiting attribute path : PES_SITE
+2018-11-01 DEBUG [AWT-EventQueue-0] (MetamodelGraphWalker.java:139) - Visiting attribute path : PES_UF
+2018-11-01 DEBUG [AWT-EventQueue-0] (FetchStyleLoadPlanBuildingAssociationVisitationStrategy.java:150) - Building LoadPlan...
+2018-11-01 DEBUG [AWT-EventQueue-0] (LoadQueryJoinAndFetchProcessor.java:119) - processing queryspace <gen:0>
+2018-11-01 DEBUG [AWT-EventQueue-0] (LoadPlanTreePrinter.java:55) - LoadPlan(entity=model.PessoaModel)
+    - Returns
+       - EntityReturnImpl(entity=model.PessoaModel, querySpaceUid=<gen:0>, path=model.PessoaModel)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=model.PessoaModel)
+          - SQL table alias mapping - pessoamode0_
+          - alias suffix - 0_
+          - suffixed key columns - {PES_CODI1_2_0_}
+
+2018-11-01 DEBUG [AWT-EventQueue-0] (EntityLoader.java:137) - Static select for entity model.PessoaModel [READ]: select pessoamode0_.PES_CODIGO as PES_CODI1_2_0_, pessoamode0_.PES_ATIVO as PES_ATIV2_2_0_, pessoamode0_.PES_BAIRRO as PES_BAIR3_2_0_, pessoamode0_.PES_CADASTRO as PES_CADA4_2_0_, pessoamode0_.PES_CELULAR as PES_CELU5_2_0_, pessoamode0_.PES_CEP as PES_CEP6_2_0_, pessoamode0_.PES_CIDADE as PES_CIDA7_2_0_, pessoamode0_.PES_COMPLEMENTO as PES_COMP8_2_0_, pessoamode0_.PES_CPFCNPJ as PES_CPFC9_2_0_, pessoamode0_.PES_EMAIL as PES_EMA10_2_0_, pessoamode0_.PES_ENDERECO as PES_END11_2_0_, pessoamode0_.PES_FANTASIA as PES_FAN12_2_0_, pessoamode0_.PES_FISICA as PES_FIS13_2_0_, pessoamode0_.PES_FONE1 as PES_FON14_2_0_, pessoamode0_.PES_FONE2 as PES_FON15_2_0_, pessoamode0_.PES_NOME as PES_NOM16_2_0_, pessoamode0_.PES_NUMERO as PES_NUM17_2_0_, pessoamode0_.PES_RGIE as PES_RGI18_2_0_, pessoamode0_.PES_SITE as PES_SIT19_2_0_, pessoamode0_.PES_UF as PES_UF20_2_0_ from PESSOA pessoamode0_ where pessoamode0_.PES_CODIGO=?
+2018-11-01 DEBUG [AWT-EventQueue-0] (CascadeEntityLoader.java:38) - Static select for action ACTION_MERGE on entity model.PessoaModel: /* load model.PessoaModel */ select pessoamode0_.PES_CODIGO as PES_CODI1_2_0_, pessoamode0_.PES_ATIVO as PES_ATIV2_2_0_, pessoamode0_.PES_BAIRRO as PES_BAIR3_2_0_, pessoamode0_.PES_CADASTRO as PES_CADA4_2_0_, pessoamode0_.PES_CELULAR as PES_CELU5_2_0_, pessoamode0_.PES_CEP as PES_CEP6_2_0_, pessoamode0_.PES_CIDADE as PES_CIDA7_2_0_, pessoamode0_.PES_COMPLEMENTO as PES_COMP8_2_0_, pessoamode0_.PES_CPFCNPJ as PES_CPFC9_2_0_, pessoamode0_.PES_EMAIL as PES_EMA10_2_0_, pessoamode0_.PES_ENDERECO as PES_END11_2_0_, pessoamode0_.PES_FANTASIA as PES_FAN12_2_0_, pessoamode0_.PES_FISICA as PES_FIS13_2_0_, pessoamode0_.PES_FONE1 as PES_FON14_2_0_, pessoamode0_.PES_FONE2 as PES_FON15_2_0_, pessoamode0_.PES_NOME as PES_NOM16_2_0_, pessoamode0_.PES_NUMERO as PES_NUM17_2_0_, pessoamode0_.PES_RGIE as PES_RGI18_2_0_, pessoamode0_.PES_SITE as PES_SIT19_2_0_, pessoamode0_.PES_UF as PES_UF20_2_0_ from PESSOA pessoamode0_ where pessoamode0_.PES_CODIGO=?
+2018-11-01 DEBUG [AWT-EventQueue-0] (CascadeEntityLoader.java:38) - Static select for action ACTION_REFRESH on entity model.PessoaModel: /* load model.PessoaModel */ select pessoamode0_.PES_CODIGO as PES_CODI1_2_0_, pessoamode0_.PES_ATIVO as PES_ATIV2_2_0_, pessoamode0_.PES_BAIRRO as PES_BAIR3_2_0_, pessoamode0_.PES_CADASTRO as PES_CADA4_2_0_, pessoamode0_.PES_CELULAR as PES_CELU5_2_0_, pessoamode0_.PES_CEP as PES_CEP6_2_0_, pessoamode0_.PES_CIDADE as PES_CIDA7_2_0_, pessoamode0_.PES_COMPLEMENTO as PES_COMP8_2_0_, pessoamode0_.PES_CPFCNPJ as PES_CPFC9_2_0_, pessoamode0_.PES_EMAIL as PES_EMA10_2_0_, pessoamode0_.PES_ENDERECO as PES_END11_2_0_, pessoamode0_.PES_FANTASIA as PES_FAN12_2_0_, pessoamode0_.PES_FISICA as PES_FIS13_2_0_, pessoamode0_.PES_FONE1 as PES_FON14_2_0_, pessoamode0_.PES_FONE2 as PES_FON15_2_0_, pessoamode0_.PES_NOME as PES_NOM16_2_0_, pessoamode0_.PES_NUMERO as PES_NUM17_2_0_, pessoamode0_.PES_RGIE as PES_RGI18_2_0_, pessoamode0_.PES_SITE as PES_SIT19_2_0_, pessoamode0_.PES_UF as PES_UF20_2_0_ from PESSOA pessoamode0_ where pessoamode0_.PES_CODIGO=?
+2018-11-01 DEBUG [AWT-EventQueue-0] (AbstractEntityPersister.java:3781) - Static SQL for entity: model.UsuarioModel
+2018-11-01 DEBUG [AWT-EventQueue-0] (AbstractEntityPersister.java:3786) -  Version select: /* get version model.UsuarioModel */ select USU_CODIGO from USUARIO where USU_CODIGO =?
+2018-11-01 DEBUG [AWT-EventQueue-0] (AbstractEntityPersister.java:3789) -  Snapshot select: /* get current state model.UsuarioModel */ select usuariomod_.USU_CODIGO, usuariomod_.USU_ATIVO as USU_ATIV2_3_, usuariomod_.USU_CADASTRO as USU_CADA3_3_, usuariomod_.USU_LOGIN as USU_LOGI4_3_, usuariomod_.USU_NOME as USU_NOME5_3_, usuariomod_.USU_SENHA as USU_SENH6_3_ from USUARIO usuariomod_ where usuariomod_.USU_CODIGO=?
+2018-11-01 DEBUG [AWT-EventQueue-0] (DelegatingBasicLogger.java:394) -  Insert 0: /* insert model.UsuarioModel */ insert into USUARIO (USU_ATIVO, USU_CADASTRO, USU_LOGIN, USU_NOME, USU_SENHA, USU_CODIGO) values (?, ?, ?, ?, ?, ?)
+2018-11-01 DEBUG [AWT-EventQueue-0] (DelegatingBasicLogger.java:394) -  Update 0: /* update model.UsuarioModel */ update USUARIO set USU_ATIVO=?, USU_CADASTRO=?, USU_LOGIN=?, USU_NOME=?, USU_SENHA=? where USU_CODIGO=?
+2018-11-01 DEBUG [AWT-EventQueue-0] (DelegatingBasicLogger.java:394) -  Delete 0: /* delete model.UsuarioModel */ delete from USUARIO where USU_CODIGO=?
+2018-11-01 DEBUG [AWT-EventQueue-0] (QuerySpacesImpl.java:174) - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@7efd63ef]
+2018-11-01 DEBUG [AWT-EventQueue-0] (MetamodelGraphWalker.java:139) - Visiting attribute path : USU_ATIVO
+2018-11-01 DEBUG [AWT-EventQueue-0] (MetamodelGraphWalker.java:139) - Visiting attribute path : USU_CADASTRO
+2018-11-01 DEBUG [AWT-EventQueue-0] (MetamodelGraphWalker.java:139) - Visiting attribute path : USU_LOGIN
+2018-11-01 DEBUG [AWT-EventQueue-0] (MetamodelGraphWalker.java:139) - Visiting attribute path : USU_NOME
+2018-11-01 DEBUG [AWT-EventQueue-0] (MetamodelGraphWalker.java:139) - Visiting attribute path : USU_SENHA
+2018-11-01 DEBUG [AWT-EventQueue-0] (FetchStyleLoadPlanBuildingAssociationVisitationStrategy.java:150) - Building LoadPlan...
+2018-11-01 DEBUG [AWT-EventQueue-0] (LoadQueryJoinAndFetchProcessor.java:119) - processing queryspace <gen:0>
+2018-11-01 DEBUG [AWT-EventQueue-0] (LoadPlanTreePrinter.java:55) - LoadPlan(entity=model.UsuarioModel)
+    - Returns
+       - EntityReturnImpl(entity=model.UsuarioModel, querySpaceUid=<gen:0>, path=model.UsuarioModel)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=model.UsuarioModel)
+          - SQL table alias mapping - usuariomod0_
+          - alias suffix - 0_
+          - suffixed key columns - {USU_CODI1_3_0_}
+
+2018-11-01 DEBUG [AWT-EventQueue-0] (EntityLoader.java:137) - Static select for entity model.UsuarioModel [NONE]: select usuariomod0_.USU_CODIGO as USU_CODI1_3_0_, usuariomod0_.USU_ATIVO as USU_ATIV2_3_0_, usuariomod0_.USU_CADASTRO as USU_CADA3_3_0_, usuariomod0_.USU_LOGIN as USU_LOGI4_3_0_, usuariomod0_.USU_NOME as USU_NOME5_3_0_, usuariomod0_.USU_SENHA as USU_SENH6_3_0_ from USUARIO usuariomod0_ where usuariomod0_.USU_CODIGO=?
+2018-11-01 DEBUG [AWT-EventQueue-0] (QuerySpacesImpl.java:174) - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@7251a0fc]
+2018-11-01 DEBUG [AWT-EventQueue-0] (MetamodelGraphWalker.java:139) - Visiting attribute path : USU_ATIVO
+2018-11-01 DEBUG [AWT-EventQueue-0] (MetamodelGraphWalker.java:139) - Visiting attribute path : USU_CADASTRO
+2018-11-01 DEBUG [AWT-EventQueue-0] (MetamodelGraphWalker.java:139) - Visiting attribute path : USU_LOGIN
+2018-11-01 DEBUG [AWT-EventQueue-0] (MetamodelGraphWalker.java:139) - Visiting attribute path : USU_NOME
+2018-11-01 DEBUG [AWT-EventQueue-0] (MetamodelGraphWalker.java:139) - Visiting attribute path : USU_SENHA
+2018-11-01 DEBUG [AWT-EventQueue-0] (FetchStyleLoadPlanBuildingAssociationVisitationStrategy.java:150) - Building LoadPlan...
+2018-11-01 DEBUG [AWT-EventQueue-0] (LoadQueryJoinAndFetchProcessor.java:119) - processing queryspace <gen:0>
+2018-11-01 DEBUG [AWT-EventQueue-0] (LoadPlanTreePrinter.java:55) - LoadPlan(entity=model.UsuarioModel)
+    - Returns
+       - EntityReturnImpl(entity=model.UsuarioModel, querySpaceUid=<gen:0>, path=model.UsuarioModel)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=model.UsuarioModel)
+          - SQL table alias mapping - usuariomod0_
+          - alias suffix - 0_
+          - suffixed key columns - {USU_CODI1_3_0_}
+
+2018-11-01 DEBUG [AWT-EventQueue-0] (EntityLoader.java:137) - Static select for entity model.UsuarioModel [READ]: select usuariomod0_.USU_CODIGO as USU_CODI1_3_0_, usuariomod0_.USU_ATIVO as USU_ATIV2_3_0_, usuariomod0_.USU_CADASTRO as USU_CADA3_3_0_, usuariomod0_.USU_LOGIN as USU_LOGI4_3_0_, usuariomod0_.USU_NOME as USU_NOME5_3_0_, usuariomod0_.USU_SENHA as USU_SENH6_3_0_ from USUARIO usuariomod0_ where usuariomod0_.USU_CODIGO=?
+2018-11-01 DEBUG [AWT-EventQueue-0] (CascadeEntityLoader.java:38) - Static select for action ACTION_MERGE on entity model.UsuarioModel: /* load model.UsuarioModel */ select usuariomod0_.USU_CODIGO as USU_CODI1_3_0_, usuariomod0_.USU_ATIVO as USU_ATIV2_3_0_, usuariomod0_.USU_CADASTRO as USU_CADA3_3_0_, usuariomod0_.USU_LOGIN as USU_LOGI4_3_0_, usuariomod0_.USU_NOME as USU_NOME5_3_0_, usuariomod0_.USU_SENHA as USU_SENH6_3_0_ from USUARIO usuariomod0_ where usuariomod0_.USU_CODIGO=?
+2018-11-01 DEBUG [AWT-EventQueue-0] (CascadeEntityLoader.java:38) - Static select for action ACTION_REFRESH on entity model.UsuarioModel: /* load model.UsuarioModel */ select usuariomod0_.USU_CODIGO as USU_CODI1_3_0_, usuariomod0_.USU_ATIVO as USU_ATIV2_3_0_, usuariomod0_.USU_CADASTRO as USU_CADA3_3_0_, usuariomod0_.USU_LOGIN as USU_LOGI4_3_0_, usuariomod0_.USU_NOME as USU_NOME5_3_0_, usuariomod0_.USU_SENHA as USU_SENH6_3_0_ from USUARIO usuariomod0_ where usuariomod0_.USU_CODIGO=?
+2018-11-01 DEBUG [AWT-EventQueue-0] (AbstractEntityPersister.java:3781) - Static SQL for entity: model.ClienteModel
+2018-11-01 DEBUG [AWT-EventQueue-0] (AbstractEntityPersister.java:3786) -  Version select: /* get version model.ClienteModel */ select CLI_CODIGO from CLIENTE where CLI_CODIGO =?
+2018-11-01 DEBUG [AWT-EventQueue-0] (AbstractEntityPersister.java:3789) -  Snapshot select: /* get current state model.ClienteModel */ select clientemod_.CLI_CODIGO, clientemod_.CLI_LIMITECRED as CLI_LIMI2_0_, clientemod_.PES_CODIGO as PES_CODI3_0_ from CLIENTE clientemod_ where clientemod_.CLI_CODIGO=?
+2018-11-01 DEBUG [AWT-EventQueue-0] (DelegatingBasicLogger.java:394) -  Insert 0: /* insert model.ClienteModel */ insert into CLIENTE (CLI_LIMITECRED, PES_CODIGO, CLI_CODIGO) values (?, ?, ?)
+2018-11-01 DEBUG [AWT-EventQueue-0] (DelegatingBasicLogger.java:394) -  Update 0: /* update model.ClienteModel */ update CLIENTE set CLI_LIMITECRED=?, PES_CODIGO=? where CLI_CODIGO=?
+2018-11-01 DEBUG [AWT-EventQueue-0] (DelegatingBasicLogger.java:394) -  Delete 0: /* delete model.ClienteModel */ delete from CLIENTE where CLI_CODIGO=?
+2018-11-01 DEBUG [AWT-EventQueue-0] (QuerySpacesImpl.java:174) - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@5152e008]
+2018-11-01 DEBUG [AWT-EventQueue-0] (MetamodelGraphWalker.java:139) - Visiting attribute path : CLI_LIMITECRED
+2018-11-01 DEBUG [AWT-EventQueue-0] (MetamodelGraphWalker.java:139) - Visiting attribute path : pessoamodel
+2018-11-01 DEBUG [AWT-EventQueue-0] (QuerySpacesImpl.java:174) - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@3b9e5138]
+2018-11-01 DEBUG [AWT-EventQueue-0] (FetchStyleLoadPlanBuildingAssociationVisitationStrategy.java:150) - Building LoadPlan...
+2018-11-01 DEBUG [AWT-EventQueue-0] (LoadQueryJoinAndFetchProcessor.java:119) - processing queryspace <gen:0>
+2018-11-01 DEBUG [AWT-EventQueue-0] (LoadPlanTreePrinter.java:55) - LoadPlan(entity=model.ClienteModel)
+    - Returns
+       - EntityReturnImpl(entity=model.ClienteModel, querySpaceUid=<gen:0>, path=model.ClienteModel)
+          - EntityAttributeFetchImpl(entity=model.PessoaModel, querySpaceUid=<gen:1>, path=model.ClienteModel.pessoamodel)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=model.ClienteModel)
+          - SQL table alias mapping - clientemod0_
+          - alias suffix - 0_
+          - suffixed key columns - {CLI_CODI1_0_0_}
+
+2018-11-01 DEBUG [AWT-EventQueue-0] (EntityLoader.java:137) - Static select for entity model.ClienteModel [NONE]: select clientemod0_.CLI_CODIGO as CLI_CODI1_0_0_, clientemod0_.CLI_LIMITECRED as CLI_LIMI2_0_0_, clientemod0_.PES_CODIGO as PES_CODI3_0_0_ from CLIENTE clientemod0_ where clientemod0_.CLI_CODIGO=?
+2018-11-01 DEBUG [AWT-EventQueue-0] (QuerySpacesImpl.java:174) - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@71459748]
+2018-11-01 DEBUG [AWT-EventQueue-0] (MetamodelGraphWalker.java:139) - Visiting attribute path : CLI_LIMITECRED
+2018-11-01 DEBUG [AWT-EventQueue-0] (MetamodelGraphWalker.java:139) - Visiting attribute path : pessoamodel
+2018-11-01 DEBUG [AWT-EventQueue-0] (QuerySpacesImpl.java:174) - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@1340f578]
+2018-11-01 DEBUG [AWT-EventQueue-0] (FetchStyleLoadPlanBuildingAssociationVisitationStrategy.java:150) - Building LoadPlan...
+2018-11-01 DEBUG [AWT-EventQueue-0] (LoadQueryJoinAndFetchProcessor.java:119) - processing queryspace <gen:0>
+2018-11-01 DEBUG [AWT-EventQueue-0] (LoadPlanTreePrinter.java:55) - LoadPlan(entity=model.ClienteModel)
+    - Returns
+       - EntityReturnImpl(entity=model.ClienteModel, querySpaceUid=<gen:0>, path=model.ClienteModel)
+          - EntityAttributeFetchImpl(entity=model.PessoaModel, querySpaceUid=<gen:1>, path=model.ClienteModel.pessoamodel)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=model.ClienteModel)
+          - SQL table alias mapping - clientemod0_
+          - alias suffix - 0_
+          - suffixed key columns - {CLI_CODI1_0_0_}
+
+2018-11-01 DEBUG [AWT-EventQueue-0] (EntityLoader.java:137) - Static select for entity model.ClienteModel [READ]: select clientemod0_.CLI_CODIGO as CLI_CODI1_0_0_, clientemod0_.CLI_LIMITECRED as CLI_LIMI2_0_0_, clientemod0_.PES_CODIGO as PES_CODI3_0_0_ from CLIENTE clientemod0_ where clientemod0_.CLI_CODIGO=?
+2018-11-01 DEBUG [AWT-EventQueue-0] (CascadeEntityLoader.java:38) - Static select for action ACTION_MERGE on entity model.ClienteModel: /* load model.ClienteModel */ select clientemod0_.CLI_CODIGO as CLI_CODI1_0_1_, clientemod0_.CLI_LIMITECRED as CLI_LIMI2_0_1_, clientemod0_.PES_CODIGO as PES_CODI3_0_1_, pessoamode1_.PES_CODIGO as PES_CODI1_2_0_, pessoamode1_.PES_ATIVO as PES_ATIV2_2_0_, pessoamode1_.PES_BAIRRO as PES_BAIR3_2_0_, pessoamode1_.PES_CADASTRO as PES_CADA4_2_0_, pessoamode1_.PES_CELULAR as PES_CELU5_2_0_, pessoamode1_.PES_CEP as PES_CEP6_2_0_, pessoamode1_.PES_CIDADE as PES_CIDA7_2_0_, pessoamode1_.PES_COMPLEMENTO as PES_COMP8_2_0_, pessoamode1_.PES_CPFCNPJ as PES_CPFC9_2_0_, pessoamode1_.PES_EMAIL as PES_EMA10_2_0_, pessoamode1_.PES_ENDERECO as PES_END11_2_0_, pessoamode1_.PES_FANTASIA as PES_FAN12_2_0_, pessoamode1_.PES_FISICA as PES_FIS13_2_0_, pessoamode1_.PES_FONE1 as PES_FON14_2_0_, pessoamode1_.PES_FONE2 as PES_FON15_2_0_, pessoamode1_.PES_NOME as PES_NOM16_2_0_, pessoamode1_.PES_NUMERO as PES_NUM17_2_0_, pessoamode1_.PES_RGIE as PES_RGI18_2_0_, pessoamode1_.PES_SITE as PES_SIT19_2_0_, pessoamode1_.PES_UF as PES_UF20_2_0_ from CLIENTE clientemod0_, PESSOA pessoamode1_ where clientemod0_.PES_CODIGO=pessoamode1_.PES_CODIGO and clientemod0_.CLI_CODIGO=?
+2018-11-01 DEBUG [AWT-EventQueue-0] (CascadeEntityLoader.java:38) - Static select for action ACTION_REFRESH on entity model.ClienteModel: /* load model.ClienteModel */ select clientemod0_.CLI_CODIGO as CLI_CODI1_0_1_, clientemod0_.CLI_LIMITECRED as CLI_LIMI2_0_1_, clientemod0_.PES_CODIGO as PES_CODI3_0_1_, pessoamode1_.PES_CODIGO as PES_CODI1_2_0_, pessoamode1_.PES_ATIVO as PES_ATIV2_2_0_, pessoamode1_.PES_BAIRRO as PES_BAIR3_2_0_, pessoamode1_.PES_CADASTRO as PES_CADA4_2_0_, pessoamode1_.PES_CELULAR as PES_CELU5_2_0_, pessoamode1_.PES_CEP as PES_CEP6_2_0_, pessoamode1_.PES_CIDADE as PES_CIDA7_2_0_, pessoamode1_.PES_COMPLEMENTO as PES_COMP8_2_0_, pessoamode1_.PES_CPFCNPJ as PES_CPFC9_2_0_, pessoamode1_.PES_EMAIL as PES_EMA10_2_0_, pessoamode1_.PES_ENDERECO as PES_END11_2_0_, pessoamode1_.PES_FANTASIA as PES_FAN12_2_0_, pessoamode1_.PES_FISICA as PES_FIS13_2_0_, pessoamode1_.PES_FONE1 as PES_FON14_2_0_, pessoamode1_.PES_FONE2 as PES_FON15_2_0_, pessoamode1_.PES_NOME as PES_NOM16_2_0_, pessoamode1_.PES_NUMERO as PES_NUM17_2_0_, pessoamode1_.PES_RGIE as PES_RGI18_2_0_, pessoamode1_.PES_SITE as PES_SIT19_2_0_, pessoamode1_.PES_UF as PES_UF20_2_0_ from CLIENTE clientemod0_, PESSOA pessoamode1_ where clientemod0_.PES_CODIGO=pessoamode1_.PES_CODIGO and clientemod0_.CLI_CODIGO=?
+2018-11-01 DEBUG [AWT-EventQueue-0] (AbstractEntityPersister.java:3781) - Static SQL for entity: model.FornecedorModel
+2018-11-01 DEBUG [AWT-EventQueue-0] (AbstractEntityPersister.java:3786) -  Version select: /* get version model.FornecedorModel */ select FOR_CODIGO from FORNECEDOR where FOR_CODIGO =?
+2018-11-01 DEBUG [AWT-EventQueue-0] (AbstractEntityPersister.java:3789) -  Snapshot select: /* get current state model.FornecedorModel */ select fornecedor_.FOR_CODIGO, fornecedor_.FOR_CONTATO as FOR_CONT2_1_, fornecedor_.PES_CODIGO as PES_CODI3_1_ from FORNECEDOR fornecedor_ where fornecedor_.FOR_CODIGO=?
+2018-11-01 DEBUG [AWT-EventQueue-0] (DelegatingBasicLogger.java:394) -  Insert 0: /* insert model.FornecedorModel */ insert into FORNECEDOR (FOR_CONTATO, PES_CODIGO, FOR_CODIGO) values (?, ?, ?)
+2018-11-01 DEBUG [AWT-EventQueue-0] (DelegatingBasicLogger.java:394) -  Update 0: /* update model.FornecedorModel */ update FORNECEDOR set FOR_CONTATO=?, PES_CODIGO=? where FOR_CODIGO=?
+2018-11-01 DEBUG [AWT-EventQueue-0] (DelegatingBasicLogger.java:394) -  Delete 0: /* delete model.FornecedorModel */ delete from FORNECEDOR where FOR_CODIGO=?
+2018-11-01 DEBUG [AWT-EventQueue-0] (QuerySpacesImpl.java:174) - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@26b3939a]
+2018-11-01 DEBUG [AWT-EventQueue-0] (MetamodelGraphWalker.java:139) - Visiting attribute path : FOR_CONTATO
+2018-11-01 DEBUG [AWT-EventQueue-0] (MetamodelGraphWalker.java:139) - Visiting attribute path : pessoamodel
+2018-11-01 DEBUG [AWT-EventQueue-0] (QuerySpacesImpl.java:174) - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@972301d]
+2018-11-01 DEBUG [AWT-EventQueue-0] (FetchStyleLoadPlanBuildingAssociationVisitationStrategy.java:150) - Building LoadPlan...
+2018-11-01 DEBUG [AWT-EventQueue-0] (LoadQueryJoinAndFetchProcessor.java:119) - processing queryspace <gen:0>
+2018-11-01 DEBUG [AWT-EventQueue-0] (LoadPlanTreePrinter.java:55) - LoadPlan(entity=model.FornecedorModel)
+    - Returns
+       - EntityReturnImpl(entity=model.FornecedorModel, querySpaceUid=<gen:0>, path=model.FornecedorModel)
+          - EntityAttributeFetchImpl(entity=model.PessoaModel, querySpaceUid=<gen:1>, path=model.FornecedorModel.pessoamodel)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=model.FornecedorModel)
+          - SQL table alias mapping - fornecedor0_
+          - alias suffix - 0_
+          - suffixed key columns - {FOR_CODI1_1_0_}
+
+2018-11-01 DEBUG [AWT-EventQueue-0] (EntityLoader.java:137) - Static select for entity model.FornecedorModel [NONE]: select fornecedor0_.FOR_CODIGO as FOR_CODI1_1_0_, fornecedor0_.FOR_CONTATO as FOR_CONT2_1_0_, fornecedor0_.PES_CODIGO as PES_CODI3_1_0_ from FORNECEDOR fornecedor0_ where fornecedor0_.FOR_CODIGO=?
+2018-11-01 DEBUG [AWT-EventQueue-0] (QuerySpacesImpl.java:174) - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@7e7de048]
+2018-11-01 DEBUG [AWT-EventQueue-0] (MetamodelGraphWalker.java:139) - Visiting attribute path : FOR_CONTATO
+2018-11-01 DEBUG [AWT-EventQueue-0] (MetamodelGraphWalker.java:139) - Visiting attribute path : pessoamodel
+2018-11-01 DEBUG [AWT-EventQueue-0] (QuerySpacesImpl.java:174) - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@14bcde83]
+2018-11-01 DEBUG [AWT-EventQueue-0] (FetchStyleLoadPlanBuildingAssociationVisitationStrategy.java:150) - Building LoadPlan...
+2018-11-01 DEBUG [AWT-EventQueue-0] (LoadQueryJoinAndFetchProcessor.java:119) - processing queryspace <gen:0>
+2018-11-01 DEBUG [AWT-EventQueue-0] (LoadPlanTreePrinter.java:55) - LoadPlan(entity=model.FornecedorModel)
+    - Returns
+       - EntityReturnImpl(entity=model.FornecedorModel, querySpaceUid=<gen:0>, path=model.FornecedorModel)
+          - EntityAttributeFetchImpl(entity=model.PessoaModel, querySpaceUid=<gen:1>, path=model.FornecedorModel.pessoamodel)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=model.FornecedorModel)
+          - SQL table alias mapping - fornecedor0_
+          - alias suffix - 0_
+          - suffixed key columns - {FOR_CODI1_1_0_}
+
+2018-11-01 DEBUG [AWT-EventQueue-0] (EntityLoader.java:137) - Static select for entity model.FornecedorModel [READ]: select fornecedor0_.FOR_CODIGO as FOR_CODI1_1_0_, fornecedor0_.FOR_CONTATO as FOR_CONT2_1_0_, fornecedor0_.PES_CODIGO as PES_CODI3_1_0_ from FORNECEDOR fornecedor0_ where fornecedor0_.FOR_CODIGO=?
+2018-11-01 DEBUG [AWT-EventQueue-0] (CascadeEntityLoader.java:38) - Static select for action ACTION_MERGE on entity model.FornecedorModel: /* load model.FornecedorModel */ select fornecedor0_.FOR_CODIGO as FOR_CODI1_1_0_, fornecedor0_.FOR_CONTATO as FOR_CONT2_1_0_, fornecedor0_.PES_CODIGO as PES_CODI3_1_0_ from FORNECEDOR fornecedor0_ where fornecedor0_.FOR_CODIGO=?
+2018-11-01 DEBUG [AWT-EventQueue-0] (CascadeEntityLoader.java:38) - Static select for action ACTION_REFRESH on entity model.FornecedorModel: /* load model.FornecedorModel */ select fornecedor0_.FOR_CODIGO as FOR_CODI1_1_0_, fornecedor0_.FOR_CONTATO as FOR_CONT2_1_0_, fornecedor0_.PES_CODIGO as PES_CODI3_1_0_ from FORNECEDOR fornecedor0_ where fornecedor0_.FOR_CODIGO=?
+2018-11-01 DEBUG [AWT-EventQueue-0] (SchemaManagementToolCoordinator.java:56) - No actions specified; doing nothing
+2018-11-01 DEBUG [AWT-EventQueue-0] (JtaPlatformInitiator.java:43) - No JtaPlatform was specified, checking resolver
+2018-11-01 DEBUG [AWT-EventQueue-0] (JtaPlatformResolverInitiator.java:33) - No JtaPlatformResolver was specified, using default [org.hibernate.engine.transaction.jta.platform.internal.StandardJtaPlatformResolver]
+2018-11-01 DEBUG [AWT-EventQueue-0] (StandardJtaPlatformResolver.java:129) - Could not resolve JtaPlatform, using default [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2018-11-01 DEBUG [AWT-EventQueue-0] (NamedQueryRepository.java:151) - Checking 0 named HQL queries
+2018-11-01 DEBUG [AWT-EventQueue-0] (NamedQueryRepository.java:167) - Checking 0 named SQL queries
+2018-11-01 DEBUG [AWT-EventQueue-0] (SessionFactoryRegistry.java:52) - Initializing SessionFactoryRegistry : org.hibernate.internal.SessionFactoryRegistry@76a9189f
+2018-11-01 DEBUG [AWT-EventQueue-0] (SessionFactoryRegistry.java:74) - Registering SessionFactory: 1d362774-dc0f-4275-a0a5-295f052fc238 (<unnamed>)
+2018-11-01 DEBUG [AWT-EventQueue-0] (SessionFactoryRegistry.java:81) - Not binding SessionFactory to JNDI, no JNDI name configured
+2018-11-01 DEBUG [AWT-EventQueue-0] (StatisticsInitiator.java:101) - Statistics initialized [enabled=false]
+2018-11-01 DEBUG [AWT-EventQueue-0] (TransactionImpl.java:56) - On TransactionImpl creation, JpaCompliance#isJpaTransactionComplianceEnabled == false
+2018-11-01 DEBUG [AWT-EventQueue-0] (TransactionImpl.java:78) - begin
+2018-11-01 DEBUG [AWT-EventQueue-0] (SqlStatementLogger.java:94) - 
+    select
+        SEQ_CLIENTE.nextval 
+    from
+        dual
+2018-11-01 DEBUG [AWT-EventQueue-0] (SequenceStructure.java:101) - Sequence value obtained: 28
+2018-11-01 DEBUG [AWT-EventQueue-0] (ResourceRegistryStandardImpl.java:87) - HHH000387: ResultSet's statement was not registered
+2018-11-01 DEBUG [AWT-EventQueue-0] (AbstractSaveEventListener.java:136) - Generated identifier: 28, using strategy: org.hibernate.id.enhanced.SequenceStyleGenerator
+2018-11-01 DEBUG [AWT-EventQueue-0] (SqlStatementLogger.java:94) - 
+    select
+        SEQ_PESSOA.nextval 
+    from
+        dual
+2018-11-01 DEBUG [AWT-EventQueue-0] (SequenceStructure.java:101) - Sequence value obtained: 29
+2018-11-01 DEBUG [AWT-EventQueue-0] (ResourceRegistryStandardImpl.java:87) - HHH000387: ResultSet's statement was not registered
+2018-11-01 DEBUG [AWT-EventQueue-0] (AbstractSaveEventListener.java:136) - Generated identifier: 29, using strategy: org.hibernate.id.enhanced.SequenceStyleGenerator
+2018-11-01 DEBUG [AWT-EventQueue-0] (TransactionImpl.java:95) - committing
+2018-11-01 DEBUG [AWT-EventQueue-0] (AbstractFlushingEventListener.java:141) - Processing flush-time cascades
+2018-11-01 DEBUG [AWT-EventQueue-0] (AbstractFlushingEventListener.java:193) - Dirty checking collections
+2018-11-01 DEBUG [AWT-EventQueue-0] (AbstractFlushingEventListener.java:115) - Flushed: 2 insertions, 0 updates, 0 deletions to 2 objects
+2018-11-01 DEBUG [AWT-EventQueue-0] (AbstractFlushingEventListener.java:122) - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+2018-11-01 DEBUG [AWT-EventQueue-0] (EntityPrinter.java:102) - Listing entities:
+2018-11-01 DEBUG [AWT-EventQueue-0] (EntityPrinter.java:109) - model.PessoaModel{PES_CEP=1, PES_FONE1=1, PES_COMPLEMENTO=1, PES_FONE2=1, PES_UF=1, PES_SITE=1, PES_CELULAR=1, PES_BAIRRO=1, PES_FISICA=S, PES_FANTASIA=1, PES_CIDADE=1, PES_NOME=1, PES_ENDERECO=1, PES_RGIE=1, PES_CODIGO=29, PES_ATIVO=S, PES_EMAIL=1, PES_CADASTRO=2018-11-01, PES_CPFCNPJ=1, PES_NUMERO=1}
+2018-11-01 DEBUG [AWT-EventQueue-0] (EntityPrinter.java:109) - model.ClienteModel{CLI_CODIGO=28, pessoamodel=model.PessoaModel#29, CLI_LIMITECRED=1.0}
+2018-11-01 DEBUG [AWT-EventQueue-0] (SqlStatementLogger.java:94) - 
+    /* insert model.PessoaModel
+        */ insert 
+        into
+            PESSOA
+            (PES_ATIVO, PES_BAIRRO, PES_CADASTRO, PES_CELULAR, PES_CEP, PES_CIDADE, PES_COMPLEMENTO, PES_CPFCNPJ, PES_EMAIL, PES_ENDERECO, PES_FANTASIA, PES_FISICA, PES_FONE1, PES_FONE2, PES_NOME, PES_NUMERO, PES_RGIE, PES_SITE, PES_UF, PES_CODIGO) 
+        values
+            (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2018-11-01 DEBUG [AWT-EventQueue-0] (SqlStatementLogger.java:94) - 
+    /* insert model.ClienteModel
+        */ insert 
+        into
+            CLIENTE
+            (CLI_LIMITECRED, PES_CODIGO, CLI_CODIGO) 
+        values
+            (?, ?, ?)
+2018-11-01 DEBUG [AWT-EventQueue-0] (SqlExceptionHelper.java:126) - could not execute statement [n/a]
+java.sql.SQLIntegrityConstraintViolationException: ORA-02291: restrição de integridade (UNIP.FK_CLIENTE) violada - chave mãe não localizada
+
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:439)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:395)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:802)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:436)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:186)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:521)
+	at oracle.jdbc.driver.T4CPreparedStatement.doOall8(T4CPreparedStatement.java:205)
+	at oracle.jdbc.driver.T4CPreparedStatement.executeForRows(T4CPreparedStatement.java:1008)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1307)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeInternal(OraclePreparedStatement.java:3449)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeUpdate(OraclePreparedStatement.java:3530)
+	at oracle.jdbc.driver.OraclePreparedStatementWrapper.executeUpdate(OraclePreparedStatementWrapper.java:1350)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:175)
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:3171)
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:3686)
+	at org.hibernate.action.internal.EntityInsertAction.execute(EntityInsertAction.java:90)
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:604)
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:478)
+	at org.hibernate.event.internal.AbstractFlushingEventListener.performExecutions(AbstractFlushingEventListener.java:356)
+	at org.hibernate.event.internal.DefaultFlushEventListener.onFlush(DefaultFlushEventListener.java:39)
+	at org.hibernate.internal.SessionImpl.doFlush(SessionImpl.java:1454)
+	at org.hibernate.internal.SessionImpl.managedFlush(SessionImpl.java:511)
+	at org.hibernate.internal.SessionImpl.flushBeforeTransactionCompletion(SessionImpl.java:3283)
+	at org.hibernate.internal.SessionImpl.beforeTransactionCompletion(SessionImpl.java:2479)
+	at org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl.beforeTransactionCompletion(JdbcCoordinatorImpl.java:473)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl.beforeCompletionCallback(JdbcResourceLocalTransactionCoordinatorImpl.java:178)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl.access$300(JdbcResourceLocalTransactionCoordinatorImpl.java:39)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl$TransactionDriverControlImpl.commit(JdbcResourceLocalTransactionCoordinatorImpl.java:271)
+	at org.hibernate.engine.transaction.internal.TransactionImpl.commit(TransactionImpl.java:98)
+	at dao.ClienteDao.incluir(ClienteDao.java:16)
+	at controller.ClienteController.incluir(ClienteController.java:25)
+	at controller.ClienteController.gravar(ClienteController.java:46)
+	at view.PessoaView.btnGRAVARActionPerformed(PessoaView.java:680)
+	at view.PessoaView.access$700(PessoaView.java:25)
+	at view.PessoaView$8.actionPerformed(PessoaView.java:241)
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:2022)
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2348)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:402)
+	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:259)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:252)
+	at java.awt.Component.processMouseEvent(Component.java:6539)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3324)
+	at java.awt.Component.processEvent(Component.java:6304)
+	at java.awt.Container.processEvent(Container.java:2239)
+	at java.awt.Component.dispatchEventImpl(Component.java:4889)
+	at java.awt.Container.dispatchEventImpl(Container.java:2297)
+	at java.awt.Component.dispatchEvent(Component.java:4711)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4904)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4535)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4476)
+	at java.awt.Container.dispatchEventImpl(Container.java:2283)
+	at java.awt.Window.dispatchEventImpl(Window.java:2746)
+	at java.awt.Component.dispatchEvent(Component.java:4711)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:760)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.awt.EventQueue$3.run(EventQueue.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:84)
+	at java.awt.EventQueue$4.run(EventQueue.java:733)
+	at java.awt.EventQueue$4.run(EventQueue.java:731)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:730)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:205)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+2018-11-01  WARN [AWT-EventQueue-0] (SqlExceptionHelper.java:137) - SQL Error: 2291, SQLState: 23000
+2018-11-01 ERROR [AWT-EventQueue-0] (SqlExceptionHelper.java:142) - ORA-02291: restrição de integridade (UNIP.FK_CLIENTE) violada - chave mãe não localizada
+
+2018-11-01 DEBUG [AWT-EventQueue-0] (JdbcResourceLocalTransactionCoordinatorImpl.java:314) - JDBC transaction marked for rollback-only (exception provided for stack trace)
+java.lang.Exception: exception just for purpose of providing stack trace
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl$TransactionDriverControlImpl.markRollbackOnly(JdbcResourceLocalTransactionCoordinatorImpl.java:314)
+	at org.hibernate.engine.transaction.internal.TransactionImpl.markRollbackOnly(TransactionImpl.java:200)
+	at org.hibernate.internal.AbstractSharedSessionContract.markForRollbackOnly(AbstractSharedSessionContract.java:378)
+	at org.hibernate.internal.ExceptionConverterImpl.handlePersistenceException(ExceptionConverterImpl.java:297)
+	at org.hibernate.internal.ExceptionConverterImpl.convert(ExceptionConverterImpl.java:155)
+	at org.hibernate.internal.ExceptionConverterImpl.convert(ExceptionConverterImpl.java:181)
+	at org.hibernate.internal.ExceptionConverterImpl.convert(ExceptionConverterImpl.java:188)
+	at org.hibernate.internal.SessionImpl.doFlush(SessionImpl.java:1460)
+	at org.hibernate.internal.SessionImpl.managedFlush(SessionImpl.java:511)
+	at org.hibernate.internal.SessionImpl.flushBeforeTransactionCompletion(SessionImpl.java:3283)
+	at org.hibernate.internal.SessionImpl.beforeTransactionCompletion(SessionImpl.java:2479)
+	at org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl.beforeTransactionCompletion(JdbcCoordinatorImpl.java:473)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl.beforeCompletionCallback(JdbcResourceLocalTransactionCoordinatorImpl.java:178)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl.access$300(JdbcResourceLocalTransactionCoordinatorImpl.java:39)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl$TransactionDriverControlImpl.commit(JdbcResourceLocalTransactionCoordinatorImpl.java:271)
+	at org.hibernate.engine.transaction.internal.TransactionImpl.commit(TransactionImpl.java:98)
+	at dao.ClienteDao.incluir(ClienteDao.java:16)
+	at controller.ClienteController.incluir(ClienteController.java:25)
+	at controller.ClienteController.gravar(ClienteController.java:46)
+	at view.PessoaView.btnGRAVARActionPerformed(PessoaView.java:680)
+	at view.PessoaView.access$700(PessoaView.java:25)
+	at view.PessoaView$8.actionPerformed(PessoaView.java:241)
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:2022)
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2348)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:402)
+	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:259)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:252)
+	at java.awt.Component.processMouseEvent(Component.java:6539)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3324)
+	at java.awt.Component.processEvent(Component.java:6304)
+	at java.awt.Container.processEvent(Container.java:2239)
+	at java.awt.Component.dispatchEventImpl(Component.java:4889)
+	at java.awt.Container.dispatchEventImpl(Container.java:2297)
+	at java.awt.Component.dispatchEvent(Component.java:4711)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4904)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4535)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4476)
+	at java.awt.Container.dispatchEventImpl(Container.java:2283)
+	at java.awt.Window.dispatchEventImpl(Window.java:2746)
+	at java.awt.Component.dispatchEvent(Component.java:4711)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:760)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.awt.EventQueue$3.run(EventQueue.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:84)
+	at java.awt.EventQueue$4.run(EventQueue.java:733)
+	at java.awt.EventQueue$4.run(EventQueue.java:731)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:730)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:205)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+2018-11-01 ERROR [AWT-EventQueue-0] (ExceptionMapperStandardImpl.java:39) - HHH000346: Error during managed flush [org.hibernate.exception.ConstraintViolationException: could not execute statement]
+2018-11-01 DEBUG [AWT-EventQueue-0] (JdbcResourceLocalTransactionCoordinatorImpl.java:314) - JDBC transaction marked for rollback-only (exception provided for stack trace)
+java.lang.Exception: exception just for purpose of providing stack trace
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl$TransactionDriverControlImpl.markRollbackOnly(JdbcResourceLocalTransactionCoordinatorImpl.java:314)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl.beforeCompletionCallback(JdbcResourceLocalTransactionCoordinatorImpl.java:187)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl.access$300(JdbcResourceLocalTransactionCoordinatorImpl.java:39)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl$TransactionDriverControlImpl.commit(JdbcResourceLocalTransactionCoordinatorImpl.java:271)
+	at org.hibernate.engine.transaction.internal.TransactionImpl.commit(TransactionImpl.java:98)
+	at dao.ClienteDao.incluir(ClienteDao.java:16)
+	at controller.ClienteController.incluir(ClienteController.java:25)
+	at controller.ClienteController.gravar(ClienteController.java:46)
+	at view.PessoaView.btnGRAVARActionPerformed(PessoaView.java:680)
+	at view.PessoaView.access$700(PessoaView.java:25)
+	at view.PessoaView$8.actionPerformed(PessoaView.java:241)
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:2022)
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2348)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:402)
+	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:259)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:252)
+	at java.awt.Component.processMouseEvent(Component.java:6539)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3324)
+	at java.awt.Component.processEvent(Component.java:6304)
+	at java.awt.Container.processEvent(Container.java:2239)
+	at java.awt.Component.dispatchEventImpl(Component.java:4889)
+	at java.awt.Container.dispatchEventImpl(Container.java:2297)
+	at java.awt.Component.dispatchEvent(Component.java:4711)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4904)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4535)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4476)
+	at java.awt.Container.dispatchEventImpl(Container.java:2283)
+	at java.awt.Window.dispatchEventImpl(Window.java:2746)
+	at java.awt.Component.dispatchEvent(Component.java:4711)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:760)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.awt.EventQueue$3.run(EventQueue.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:84)
+	at java.awt.EventQueue$4.run(EventQueue.java:733)
+	at java.awt.EventQueue$4.run(EventQueue.java:731)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:730)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:205)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+2018-11-01 DEBUG [AWT-EventQueue-0] (LogicalConnectionManagedImpl.java:161) - Initiating JDBC connection release from afterTransaction
+2018-11-01 DEBUG [AWT-EventQueue-0] (LogicalConnectionManagedImpl.java:161) - Initiating JDBC connection release from afterTransaction
